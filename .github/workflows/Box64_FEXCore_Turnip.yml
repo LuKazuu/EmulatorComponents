@@ -622,7 +622,7 @@ jobs:
           set -e
           NOTES_FILE="current_notes.md"
           
-          gh release view combined-latest -R ${{ github.repository }} --json body --jq .body > $NOTES_FILE || echo "Automated Combined Release" > $NOTES_FILE
+          gh release view combined-latest -R ${{ github.repository }} --json body --jq .body > $NOTES_FILE || echo -e "Automated Combined Release\n" > $NOTES_FILE
 
           if [ "${{ needs.build-box64.result }}" == "success" ]; then
             if grep -q "^\*\*Box64\*\*:" $NOTES_FILE; then
