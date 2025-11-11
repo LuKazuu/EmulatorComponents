@@ -36,7 +36,7 @@
       "display_name": "proton10.0-arm64x-2",
       "is_steam": 1
     },
-    "component_ids": [7, 8, 24, 323],
+    "component_ids": [8, 345],
     "component": [
       {
         "id": 8,
@@ -63,7 +63,7 @@
         "name": "Fex-20251025",
         "logo": "",
         "blurb": "",
-        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gh-lite/fex-20251025.tzst",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/fex-20251025.tzst",
         "file_md5": "6d24fdf3f9e18a40d99612583f97dcc7",
         "file_size": "11580115",
         "file_name": "fex-20251025.tzst",
