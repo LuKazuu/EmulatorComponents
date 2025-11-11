@@ -14,29 +14,7 @@
       "logo": "",
       "display_name": "Firmware"
     },
-    "container_id": 2,
-    "container": {
-      "id": 2,
-      "version": "1.0.3",
-      "version_code": 4,
-      "name": "proton10.0-arm64x-2",
-      "logo": "",
-      "blurb": "",
-      "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/wine_proton10.0-arm64x-2.tar.zst",
-      "file_md5": "6dcb13706c9c7720b074ee020ce39bbc",
-      "file_size": "216807973",
-      "file_name": "wine_proton10.0-arm64x-2.tar.zst",
-      "sub_data": {
-        "sub_file_name": "6dcb13706c9c7720b074ee020ce39bbc.tzst",
-        "sub_download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/6dcb13706c9c7720b074ee020ce39bbc.tzst",
-        "sub_file_md5": "439b7ec0ae13685aee76a10904ebccf4"
-      },
-      "framework": "arm64X",
-      "framework_type": "proton",
-      "display_name": "proton10.0-arm64x-2",
-      "is_steam": 1
-    },
-    "component_ids": [8, 345],
+    "component_ids": [8, 316],
     "component": [
       {
         "id": 8,
@@ -56,21 +34,22 @@
         "is_ui": 1
       },
       {
-        "id": 345,
+        "id": 316,
         "version": "1.0.0",
         "version_code": 1,
-        "type": 1,
-        "name": "Fex-20251025",
+        "type": 7,
+        "name": "steam_9866232",
         "logo": "",
         "blurb": "",
-        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/fex-20251025.tzst",
-        "file_md5": "6d24fdf3f9e18a40d99612583f97dcc7",
-        "file_size": "11580115",
-        "file_name": "fex-20251025.tzst",
-        "display_name": "Fex-20251025",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/steam_9866232.tar.zst",
+        "file_md5": "3d9d01362622a782a27ae691427b786c",
+        "file_size": "41192642",
+        "file_name": "steam_9866232.tar.zst",
+        "display_name": "",
         "is_base": 0,
         "base_type": 0,
-        "is_ui": 1
+        "is_ui": 0
+        "is_steam": 1
       }
     ],
     "translations": {
