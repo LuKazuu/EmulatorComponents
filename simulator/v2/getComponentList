@@ -32,9 +32,24 @@
         "file_name": "fex-20251025.tzst",
         "display_name": "Fex-20251025",
         "gpu_range": ""
+      },
+      {
+        "id": 323,
+        "version": "1.0.1",
+        "version_code": 2,
+        "type": 1,
+        "name": "Fex_20250910",
+        "logo": "",
+        "blurb": "",
+        "file_md5": "37a75036118dc0f14ad2ae1b6e1561fc",
+        "file_size": "11580702",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/fex-20250910.tzst",
+        "file_name": "fex-20250910.tzst",
+        "display_name": "Fex_20250910",
+        "gpu_range": ""
       }
     ],
-    "total": 2,
+    "total": 3,
     "page": 1,
     "pageSize": 10
   },

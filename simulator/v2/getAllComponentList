@@ -47,6 +47,20 @@
       },
       {
         "display_name": "",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/turnip_v25.0.0_R1.tzst",
+        "file_md5": "a56b24886555c6c5d30c93fdb7b0f8f3",
+        "file_name": "turnip_v25.0.0_R1.tzst",
+        "file_size": "2221425",
+        "id": 48,
+        "is_ui": 1,
+        "logo": "",
+        "name": "turnip_v25.0.0_R1",
+        "type": 2,
+        "version": "1.1.0",
+        "version_code": 1
+      },
+      {
+        "display_name": "",
         "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/9f83bc10819ff9636a7300dcd114ba87.tzst",
         "file_md5": "9f83bc10819ff9636a7300dcd114ba87",
         "file_name": "dxvk-v1.11.1-mali-fix.tzst",
@@ -74,7 +88,21 @@
         "version_code": 3
       },
       {
-        "display_name": "Box64-0.38",
+        "display_name": "",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/dxvk-async-2.3.1.tzst",
+        "file_md5": "55c653ec6d8536dcac71dcfc2aecc299",
+        "file_name": "dxvk-async-2.3.1.tzst",
+        "file_size": "7914709",
+        "id": 25,
+        "is_ui": 1,
+        "logo": "",
+        "name": "dxvk-2.3.1-async",
+        "type": 3,
+        "version": "1.1.0",
+        "version_code": 9
+      },
+      {
+        "display_name": "",
         "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/Box64-0.38.tzst",
         "file_md5": "7d91a3edb0b829b9359dd494754ab521",
         "file_name": "Box64-0.38.tzst",
@@ -88,7 +116,7 @@
         "version_code": 1
       },
       {
-        "display_name": "Fex-20251025",
+        "display_name": "",
         "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/fex-20251025.tzst",
         "file_md5": "6d24fdf3f9e18a40d99612583f97dcc7",
         "file_name": "fex-20251025.tzst",
@@ -100,6 +128,20 @@
         "type": 1,
         "version": "1.0.0",
         "version_code": 1
+      },
+      {
+        "display_name": "",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/fex-20250910.tzst",
+        "file_md5": "37a75036118dc0f14ad2ae1b6e1561fc",
+        "file_name": "fex-20250910.tzst",
+        "file_size": "11580702",
+        "id": 323,
+        "is_ui": 1,
+        "logo": "",
+        "name": "Fex_20250910",
+        "type": 1,
+        "version": "1.0.1",
+        "version_code": 2
       },
       {
         "display_name": "",
@@ -131,6 +173,20 @@
       },
       {
         "display_name": "",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/vkd3d-2.12.tzst",
+        "file_md5": "4f3e99438281f7749cb2b8b2412c9d10",
+        "file_name": "vkd3d-2.12.tzst",
+        "file_size": "2643215",
+        "id": 7,
+        "is_ui": 1,
+        "logo": "",
+        "name": "vkd3d-2.12",
+        "type": 4,
+        "version": "1.1.1",
+        "version_code": 1
+      },
+      {
+        "display_name": "",
         "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/base.tzst",
         "file_md5": "3d5c31b1346985d582f04d239004b4d7",
         "file_name": "base.tzst",
@@ -144,7 +200,7 @@
         "version_code": 1
       }
     ],
-    "total": 10
+    "total": 14
   },
   "time": "1759448660"
 }
