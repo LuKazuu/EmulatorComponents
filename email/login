@@ -1,0 +1,19 @@
+{
+    "code": 200,
+    "msg": "Logged in successful",
+    "time": "1751954380",
+    "data": {
+        "userinfo": {
+            "id": 6915514,
+            "username": "XBOX",
+            "nickname": "xbox",
+            "mobile": "",
+            "avatar": "😎",
+            "token": "f906a7ae-c08e-45a9-b68e-0b68a387b378",
+            "uuid": "xbox",
+            "third_platform": "google",
+            "bio": "xbox",
+            "email": ""
+        }
+    }
+}
