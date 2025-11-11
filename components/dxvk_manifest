@@ -1,0 +1,40 @@
+{
+  "code": 200,
+  "msg": "Success",
+  "data": {
+    "type": 3,
+    "type_name": "dxvk",
+    "display_name": "DXVK Layers",
+    "total": 2,
+    "components": [
+      {
+        "display_name": "",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/dxvk-v1.11.1-mali-fix.tzst",
+        "file_md5": "9f83bc10819ff9636a7300dcd114ba87",
+        "file_name": "dxvk-v1.11.1-mali-fix.tzst",
+        "file_size": "7789100",
+        "id": 329,
+        "is_ui": 1,
+        "logo": "",
+        "name": "dxvk-v1.11.1-mali-fix",
+        "type": 3,
+        "version": "1.0.0",
+        "version_code": 1
+      },
+      {
+        "display_name": "",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/dxvk-2.4.tzst",
+        "file_md5": "1ba3cd07e1e37034eee0d8dcd9103d6d",
+        "file_name": "dxvk-2.4.tzst",
+        "file_size": "9082166",
+        "id": 21,
+        "is_ui": 1,
+        "logo": "",
+        "name": "dxvk-2.4",
+        "type": 3,
+        "version": "1.1.0",
+        "version_code": 3
+      }
+    ]
+  }
+}

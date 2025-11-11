@@ -1,0 +1,40 @@
+{
+  "code": 200,
+  "msg": "Success",
+  "data": {
+    "type": 1,
+    "type_name": "box64",
+    "display_name": "Box64 Emulators",
+    "total": 2,
+    "components": [
+      {
+        "display_name": "Box64-0.38",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/Box64-0.38.tzst",
+        "file_md5": "7d91a3edb0b829b9359dd494754ab521",
+        "file_name": "Box64-0.38.tzst",
+        "file_size": "4279460",
+        "id": 344,
+        "is_ui": 1,
+        "logo": "",
+        "name": "Box64-0.38",
+        "type": 1,
+        "version": "1.0.0",
+        "version_code": 1
+      },
+      {
+        "display_name": "Fex-20251025",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/fex-20251025.tzst",
+        "file_md5": "6d24fdf3f9e18a40d99612583f97dcc7",
+        "file_name": "fex-20251025.tzst",
+        "file_size": "11580115",
+        "id": 345,
+        "is_ui": 1,
+        "logo": "",
+        "name": "Fex-20251025",
+        "type": 1,
+        "version": "1.0.0",
+        "version_code": 1
+      }
+    ]
+  }
+}

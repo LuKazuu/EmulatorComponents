@@ -1,0 +1,11 @@
+{
+  "code": 200,
+  "msg": "Success",
+  "data": {
+    "type": 6,
+    "type_name": "libraries",
+    "display_name": "System Libraries",
+    "total": 0,
+    "components": []
+  }
+}

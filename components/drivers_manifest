@@ -1,0 +1,40 @@
+{
+  "code": 200,
+  "msg": "Success",
+  "data": {
+    "type": 2,
+    "type_name": "drivers",
+    "display_name": "GPU Drivers",
+    "total": 2,
+    "components": [
+      {
+        "display_name": "",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/8eGen5-842.8.tzst",
+        "file_md5": "f69bfda11b5ada8e6542e94896570193",
+        "file_name": "8eGen5-842.8.tzst",
+        "file_size": "12568832",
+        "id": 338,
+        "is_ui": 1,
+        "logo": "",
+        "name": "8eGen5-842.8",
+        "type": 2,
+        "version": "1.0.0",
+        "version_code": 1
+      },
+      {
+        "display_name": "",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/turnip_v26.0.0_R2.tzst",
+        "file_md5": "822e423fb4a7d8185b342fc641bdfa22",
+        "file_name": "turnip_v26.0.0_R2.tzst",
+        "file_size": "3168214",
+        "id": 347,
+        "is_ui": 1,
+        "logo": "",
+        "name": "turnip_v26.0.0_R2",
+        "type": 2,
+        "version": "1.0.0",
+        "version_code": 1
+      }
+    ]
+  }
+}

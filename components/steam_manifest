@@ -1,0 +1,26 @@
+{
+  "code": 200,
+  "msg": "Success",
+  "data": {
+    "type": 7,
+    "type_name": "steam",
+    "display_name": "Steam Components",
+    "total": 1,
+    "components": [
+      {
+        "display_name": "",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/steam_9866232.tar.zst",
+        "file_md5": "3d9d01362622a782a27ae691427b786c",
+        "file_name": "steam_9866232.tar.zst",
+        "file_size": "41192642",
+        "id": 316,
+        "is_ui": 1,
+        "logo": "",
+        "name": "steam_9866232",
+        "type": 7,
+        "version": "1.0.0",
+        "version_code": 1
+      }
+    ]
+  }
+}
