@@ -5,7 +5,7 @@
     "type": 2,
     "type_name": "drivers",
     "display_name": "GPU Drivers",
-    "total": 2,
+    "total": 3,
     "components": [
       {
         "display_name": "",
@@ -33,6 +33,20 @@
         "name": "turnip_v26.0.0_R2",
         "type": 2,
         "version": "1.0.0",
+        "version_code": 1
+      },
+      {
+        "display_name": "",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/turnip_v25.0.0_R1.tzst",
+        "file_md5": "a56b24886555c6c5d30c93fdb7b0f8f3",
+        "file_name": "turnip_v25.0.0_R1.tzst",
+        "file_size": "2221425",
+        "id": 48,
+        "is_ui": 1,
+        "logo": "",
+        "name": "turnip_v25.0.0_R1",
+        "type": 2,
+        "version": "1.1.0",
         "version_code": 1
       }
     ]

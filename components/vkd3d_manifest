@@ -5,7 +5,7 @@
     "type": 4,
     "type_name": "vkd3d",
     "display_name": "VKD3D Proton",
-    "total": 1,
+    "total": 2,
     "components": [
       {
         "display_name": "",
@@ -17,6 +17,20 @@
         "is_ui": 1,
         "logo": "",
         "name": "vkd3d-proton-2.14.1",
+        "type": 4,
+        "version": "1.1.1",
+        "version_code": 1
+      },
+      {
+        "display_name": "",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/vkd3d-2.12.tzst",
+        "file_md5": "4f3e99438281f7749cb2b8b2412c9d10",
+        "file_name": "vkd3d-2.12.tzst",
+        "file_size": "2643215",
+        "id": 7,
+        "is_ui": 1,
+        "logo": "",
+        "name": "vkd3d-2.12",
         "type": 4,
         "version": "1.1.1",
         "version_code": 1

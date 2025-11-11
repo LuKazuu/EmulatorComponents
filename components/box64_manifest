@@ -5,10 +5,10 @@
     "type": 1,
     "type_name": "box64",
     "display_name": "Box64 Emulators",
-    "total": 2,
+    "total": 3,
     "components": [
       {
-        "display_name": "Box64-0.38",
+        "display_name": "",
         "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/Box64-0.38.tzst",
         "file_md5": "7d91a3edb0b829b9359dd494754ab521",
         "file_name": "Box64-0.38.tzst",
@@ -22,7 +22,7 @@
         "version_code": 1
       },
       {
-        "display_name": "Fex-20251025",
+        "display_name": "",
         "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/fex-20251025.tzst",
         "file_md5": "6d24fdf3f9e18a40d99612583f97dcc7",
         "file_name": "fex-20251025.tzst",
@@ -30,10 +30,24 @@
         "id": 345,
         "is_ui": 1,
         "logo": "",
-        "name": "Fex-20251025",
+        "name": "Fex_20251025",
         "type": 1,
         "version": "1.0.0",
         "version_code": 1
+      },
+      {
+        "display_name": "",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/fex-20250910.tzst",
+        "file_md5": "37a75036118dc0f14ad2ae1b6e1561fc",
+        "file_name": "fex-20250910.tzst",
+        "file_size": "11580702",
+        "id": 323,
+        "is_ui": 1,
+        "logo": "",
+        "name": "Fex_20250910",
+        "type": 1,
+        "version": "1.0.1",
+        "version_code": 2
       }
     ]
   }

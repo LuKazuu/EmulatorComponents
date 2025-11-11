@@ -5,7 +5,7 @@
     "type": 3,
     "type_name": "dxvk",
     "display_name": "DXVK Layers",
-    "total": 2,
+    "total": 3,
     "components": [
       {
         "display_name": "",
@@ -34,6 +34,20 @@
         "type": 3,
         "version": "1.1.0",
         "version_code": 3
+      },
+      {
+        "display_name": "",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/dxvk-async-2.3.1.tzst",
+        "file_md5": "55c653ec6d8536dcac71dcfc2aecc299",
+        "file_name": "dxvk-async-2.3.1.tzst",
+        "file_size": "7914709",
+        "id": 25,
+        "is_ui": 1,
+        "logo": "",
+        "name": "dxvk-2.3.1-async",
+        "type": 3,
+        "version": "1.1.0",
+        "version_code": 9
       }
     ]
   }

@@ -2,7 +2,7 @@
   "code": 200,
   "msg": "Success",
   "data": {
-    "total": 10,
+    "total": 14,
     "downloads": [
       {
         "name": "8eGen5-842.8",
@@ -32,6 +32,15 @@
         "file_md5": "822e423fb4a7d8185b342fc641bdfa22"
       },
       {
+        "name": "turnip_v25.0.0_R1",
+        "type": 2,
+        "version": "1.1.0",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/turnip_v25.0.0_R1.tzst",
+        "file_name": "turnip_v25.0.0_R1.tzst",
+        "file_size": "2221425",
+        "file_md5": "a56b24886555c6c5d30c93fdb7b0f8f3"
+      },
+      {
         "name": "dxvk-v1.11.1-mali-fix",
         "type": 3,
         "version": "1.0.0",
@@ -50,6 +59,15 @@
         "file_md5": "1ba3cd07e1e37034eee0d8dcd9103d6d"
       },
       {
+        "name": "dxvk-2.3.1-async",
+        "type": 3,
+        "version": "1.1.0",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/dxvk-async-2.3.1.tzst",
+        "file_name": "dxvk-async-2.3.1.tzst",
+        "file_size": "7914709",
+        "file_md5": "55c653ec6d8536dcac71dcfc2aecc299"
+      },
+      {
         "name": "Box64-0.38",
         "type": 1,
         "version": "1.0.0",
@@ -59,13 +77,22 @@
         "file_md5": "7d91a3edb0b829b9359dd494754ab521"
       },
       {
-        "name": "Fex-20251025",
+        "name": "Fex_20251025",
         "type": 1,
         "version": "1.0.0",
-        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gh-lite/fex-20251025.tzst",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/fex-20251025.tzst",
         "file_name": "fex-20251025.tzst",
         "file_size": "11580115",
         "file_md5": "6d24fdf3f9e18a40d99612583f97dcc7"
+      },
+      {
+        "name": "Fex_20250910",
+        "type": 1,
+        "version": "1.0.1",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/fex-20250910.tzst",
+        "file_name": "fex-20250910.tzst",
+        "file_size": "11580702",
+        "file_md5": "37a75036118dc0f14ad2ae1b6e1561fc"
       },
       {
         "name": "steamagent",
@@ -84,6 +111,15 @@
         "file_name": "vkd3d-proton-2.14.1.tzst",
         "file_size": "2959743",
         "file_md5": "4b5207e61ac2cd7132fa67abca84e7f1"
+      },
+      {
+        "name": "vkd3d-2.12",
+        "type": 4,
+        "version": "1.1.1",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/vkd3d-2.12.tzst",
+        "file_name": "vkd3d-2.12.tzst",
+        "file_size": "2643215",
+        "file_md5": "4f3e99438281f7749cb2b8b2412c9d10"
       },
       {
         "name": "base",
