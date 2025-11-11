@@ -1,1 +1,10 @@
-
+{
+  "code": 200,
+  "msg": "Success",
+  "data": {
+    "cloud_game_switch": 2,
+    "guide_info_img": "",
+    "guide_storage_img": ""
+  },
+  "time": "1759483449"
+}
