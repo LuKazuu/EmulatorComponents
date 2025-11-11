@@ -6,14 +6,14 @@
     {
       "id": 13,
       "name": "​​PC Emulator​​",
-      "icon": "",
+      "icon": "https://github.com/LuKazuu/EmulatorComponents/raw/refs/heads/main/base/windows.png",
       "type": 7,
       "back_img": ""
     },
     {
       "id": 9,
       "name": "Steam",
-      "icon": "",
+      "icon": "https://github.com/LuKazuu/EmulatorComponents/raw/refs/heads/main/base/steam.webp",
       "type": 5,
       "back_img": ""
     }
