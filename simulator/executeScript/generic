@@ -126,7 +126,7 @@
     "start_param": "",
     "environment": "",
     "execution_context": {
-      "params": ["ARM", 78, "Mali-G78", 0, "0", 2, "Qualcomm", 750, "Adreno (TM) 750", 2150604839, "6850", 2],
+      "params": [],
       "script_id": 9,
       "timestamp": 1759470524
     }
