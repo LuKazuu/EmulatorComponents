@@ -1,0 +1,21 @@
+{
+  "code": 200,
+  "msg": "",
+  "time": "",
+  "data": [
+    {
+      "id": 13,
+      "name": "​​PC Emulator​​",
+      "icon": "",
+      "type": 7,
+      "back_img": ""
+    },
+    {
+      "id": 9,
+      "name": "Steam",
+      "icon": "",
+      "type": 5,
+      "back_img": ""
+    }
+  ]
+}
