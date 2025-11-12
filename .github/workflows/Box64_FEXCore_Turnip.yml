@@ -173,20 +173,24 @@ jobs:
           fi
           file "$BIN"
 
-      - name: Package ZIP
+      - name: Package Archives
         id: package
         run: |
           set -Eeuo pipefail
           mkdir -p artifacts
           cp src/build/box64 artifacts/box64
+          
+          echo "Creating ZIP archive..."
           (cd artifacts && zip box64-latest.zip box64)
-          echo "FILENAME=box64-latest.zip" >> "$GITHUB_OUTPUT"
+          
+          echo "Creating TZST archive..."
+          (cd artifacts && tar -I 'zstd -T0 -19' -cf box64-latest.tzst box64)
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
           name: box64-artifact
-          path: artifacts/box64-latest.zip
+          path: artifacts/
           retention-days: 1
 
       - name: Set Output Info
@@ -387,13 +391,14 @@ jobs:
           DESTDIR="$STAGE_AARCH64" ninja install
           cd ..
 
-      - name: Package ZIP
+      - name: Package Archives
         id: package
         env:
           DATE: ${{ steps.collect.outputs.date }}
         run: |
           set -Eeuo pipefail
           PACKAGE_DIR="${GITHUB_WORKSPACE}/FEXCore_Pkg"
+          ARTIFACTS_DIR="${GITHUB_WORKSPACE}/artifacts"
           rm -rf "$PACKAGE_DIR" && mkdir -p "$PACKAGE_DIR"
           
           STAGE_ARM64EC="${GITHUB_WORKSPACE}/stage-arm64ec-${DATE}"
@@ -414,15 +419,19 @@ jobs:
 
           (cd "$PACKAGE_DIR" && find . -maxdepth 1 -type f -name '*.dll' -print) | grep -q . || { echo "::error::No DLLs discovered in $PACKAGE_DIR"; exit 1; }
           
-          mkdir -p artifacts
+          mkdir -p "$ARTIFACTS_DIR"
+          
+          echo "Creating ZIP archive..."
           (cd "$PACKAGE_DIR" && zip ../artifacts/fexcore-latest.zip *.dll)
-          echo "FILENAME=fexcore-latest.zip" >> "$GITHUB_OUTPUT"
+          
+          echo "Creating TZST archive..."
+          (cd "$PACKAGE_DIR" && tar -I 'zstd -T0 -19' -cf ../artifacts/fexcore-latest.tzst *.dll)
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
           name: fexcore-artifact
-          path: artifacts/fexcore-latest.zip
+          path: artifacts/
           retention-days: 1
 
       - name: Set Output Info
@@ -455,7 +464,7 @@ jobs:
         sudo sed -i 's/^Types: deb$/Types: deb deb-src/' /etc/apt/sources.list.d/ubuntu.sources
         sudo apt update
         sudo apt build-dep mesa -y
-        sudo apt install -y patchelf unzip curl python3-pip zip glslang-tools git
+        sudo apt install -y patchelf unzip curl python3-pip zip glslang-tools git zstd
         pip install mako
 
     - name: Prepare workdir, download NDK and Mesa
@@ -553,24 +562,34 @@ jobs:
       run: |
         libname="libvulkan_freedreno.so"
         BUILT_LIB_PATH="$WORKDIR/mesa-main/build-android-aarch64/src/freedreno/vulkan/$libname"
+        ARTIFACTS_DIR="$WORKDIR/artifacts"
+        PACKAGE_DIR="$WORKDIR/package"
+
+        mkdir -p "$ARTIFACTS_DIR"
+        mkdir -p "$PACKAGE_DIR"
         
         echo "Copying library and using patchelf..."
-        cp "$BUILT_LIB_PATH" "$WORKDIR/$libname"
-        cd "$WORKDIR"
-        patchelf --set-soname $libname $libname
+        cp "$BUILT_LIB_PATH" "$PACKAGE_DIR/$libname"
+        (cd "$PACKAGE_DIR" && patchelf --set-soname $libname $libname)
         
         echo "Creating zip archive..."
-        zip -9 "$WORKDIR/turnip-latest.zip" $libname
+        (cd "$PACKAGE_DIR" && zip -9 "$ARTIFACTS_DIR/turnip-latest.zip" $libname)
         
-        if ! [ -a "$WORKDIR/turnip-latest.zip" ]; then
+        echo "Creating tzst archive..."
+        (cd "$PACKAGE_DIR" && tar -I 'zstd -T0 -19' -cf "$ARTIFACTS_DIR/turnip-latest.tzst" $libname)
+        
+        if ! [ -a "$ARTIFACTS_DIR/turnip-latest.zip" ]; then
           echo "Packing turnip-latest.zip failed!" && exit 1
+        fi
+        if ! [ -a "$ARTIFACTS_DIR/turnip-latest.tzst" ]; then
+          echo "Packing turnip-latest.tzst failed!" && exit 1
         fi
 
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
       with:
         name: turnip-artifact
-        path: ${{ env.WORKDIR }}/turnip-latest.zip
+        path: ${{ env.WORKDIR }}/artifacts/
         retention-days: 1
 
     - name: Set Output Info
@@ -666,7 +685,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           if [ -d "artifacts" ] && [ "$(ls -A artifacts)" ]; then
-            gh release upload combined-latest artifacts/*.zip -R ${{ github.repository }} --clobber
+            gh release upload combined-latest artifacts/* -R ${{ github.repository }} --clobber
           else
             echo "No new artifacts to upload."
           fi
