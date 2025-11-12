@@ -13,6 +13,8 @@ on:
           - 'box64'
           - 'fexcore'
           - 'turnip'
+  schedule:
+    - cron: '0 */12 * * *'
 
 permissions:
   contents: write
@@ -28,7 +30,7 @@ concurrency:
 jobs:
   build-box64:
     name: Build Box64
-    if: github.event.inputs.build_target == 'all' || github.event.inputs.build_target == 'box64'
+    if: (github.event_name == 'schedule') || (github.event.inputs.build_target == 'all' || github.event.inputs.build_target == 'box64')
     runs-on: ubuntu-latest
     timeout-minutes: 60
     outputs:
@@ -199,7 +201,7 @@ jobs:
 
   build-fexcore:
     name: Build FEXCore
-    if: github.event.inputs.build_target == 'all' || github.event.inputs.build_target == 'fexcore'
+    if: (github.event_name == 'schedule') || (github.event.inputs.build_target == 'all' || github.event.inputs.build_target == 'fexcore')
     runs-on: ubuntu-latest
     timeout-minutes: 60
     outputs:
@@ -435,7 +437,7 @@ jobs:
 
   build-turnip:
     name: Build Turnip
-    if: github.event.inputs.build_target == 'all' || github.event.inputs.build_target == 'turnip'
+    if: (github.event_name == 'schedule') || (github.event.inputs.build_target == 'all' || github.event.inputs.build_target == 'turnip')
     runs-on: ubuntu-24.04
     outputs:
       RELEASE_INFO: ${{ steps.set_output.outputs.RELEASE_INFO }}
