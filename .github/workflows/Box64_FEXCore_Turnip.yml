@@ -185,6 +185,8 @@ jobs:
           
           echo "Creating TZST archive..."
           (cd artifacts && tar -I 'zstd -T0 -19' -cf box64-latest.tzst box64)
+          
+          rm artifacts/box64
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
