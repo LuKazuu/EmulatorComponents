@@ -16,7 +16,7 @@
         "id": 321,
         "is_ui": 2,
         "logo": "",
-        "name": "steamagent",
+        "name": "STEAMAGENT",
         "type": 5,
         "version": "1.0.4",
         "version_code": 5
@@ -30,7 +30,7 @@
         "id": 8,
         "is_ui": 1,
         "logo": "",
-        "name": "base",
+        "name": "BASE",
         "type": 5,
         "version": "1.0.0",
         "version_code": 1
