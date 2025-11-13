@@ -5,7 +5,7 @@
     "total": 16,
     "downloads": [
         {
-        "name": "turnip_Gmem",
+        "name": "turnip_latest_Gmem",
         "type": 2,
         "version": "1.0.0",
         "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/Turnip_v26.0.0_R3_CB_Perf_Fix_Gmem.tzst",
@@ -14,7 +14,7 @@
         "file_md5": "9306de5f6ae73b1102f07755784264ce"
       },
        {
-        "name": "turnip_Auto",
+        "name": "turnip_latest_Auto",
         "type": 2,
         "version": "1.0.0",
         "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/Turnip_v26.0.0_R3_CB_Perf_Fix.tzst",
