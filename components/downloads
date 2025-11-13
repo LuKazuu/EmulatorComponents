@@ -2,7 +2,7 @@
   "code": 200,
   "msg": "Success",
   "data": {
-    "total": 16,
+    "total": 17,
     "downloads": [
         {
         "name": "turnip_latest_GMEM",
@@ -68,7 +68,7 @@
         "file_md5": "a56b24886555c6c5d30c93fdb7b0f8f3"
       },
       {
-        "name": "dxvk-v1.11.1-mali-fix",
+        "name": "dxvk-1.11.1",
         "type": 3,
         "version": "1.0.0",
         "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/9f83bc10819ff9636a7300dcd114ba87.tzst",
@@ -77,13 +77,22 @@
         "file_md5": "9f83bc10819ff9636a7300dcd114ba87"
       },
       {
-        "name": "dxvk-2.4",
+        "name": "dxvk-1.10.3-async",
         "type": 3,
         "version": "1.1.0",
-        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/dxvk-2.4.tzst",
-        "file_name": "dxvk-2.4.tzst",
-        "file_size": "9082166",
-        "file_md5": "1ba3cd07e1e37034eee0d8dcd9103d6d"
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/dxvk-async-1.10.3.tzst",
+        "file_name": "dxvk-async-1.10.3.tzst",
+        "file_size": "7850661",
+        "file_md5": "e6041eb8b5e8596e33bf0da1b9a4342f"
+      },
+      {
+        "name": "dxvk-2.4.1",
+        "type": 3,
+        "version": "1.0.0",
+        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/dxvk-2.4.1.tzst",
+        "file_name": "dxvk-2.4.1.tzst",
+        "file_size": "8835113",
+        "file_md5": "7f5b3dff40e7ff8439722271ef62bb79"
       },
       {
         "name": "dxvk-2.3.1-async",
