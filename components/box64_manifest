@@ -5,8 +5,36 @@
     "type": 1,
     "type_name": "box64",
     "display_name": "Box64 Emulators",
-    "total": 3,
+    "total": 5,
     "components": [
+       {
+        "display_name": "",
+        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/box64-latest.tzst",
+        "file_md5": "85a9f5df8b7c14db0b290ea2b2eea027",
+        "file_name": "box64-latest.tzst",
+        "file_size": "3284543",
+        "id": 501,
+        "is_ui": 1,
+        "logo": "",
+        "name": "box64-latest",
+        "type": 1,
+        "version": "1",
+        "version_code": 1
+      },
+      {
+        "display_name": "",
+        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/fexcore-latest.tzst",
+        "file_md5": "7f8dd36ee6426c747b244d91d84e71ba",
+        "file_name": "fexcore-latest.tzst",
+        "file_size": "1261068",
+        "id": 500,
+        "is_ui": 1,
+        "logo": "",
+        "name": "fexcore-latest",
+        "type": 1,
+        "version": "1",
+        "version_code": 1
+      },
       {
         "display_name": "",
         "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/Box64-0.38.tzst",

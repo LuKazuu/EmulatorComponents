@@ -2,8 +2,35 @@
   "code": 200,
   "msg": "Success",
   "data": {
-    "total": 14,
+    "total": 17,
     "downloads": [
+       {
+        "name": "turnip-latest",
+        "type": 2,
+        "version": "1",
+        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/turnip-latest.tzst",
+        "file_name": "turnip-latest.tzst",
+        "file_size": "2602568",
+        "file_md5": "623dc603085340300fd312630094b9b9"
+      },
+      {
+        "name": "box64-latest",
+        "type": 1,
+        "version": "1",
+        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/box64-latest.tzst",
+        "file_name": "box64-latest.tzst",
+        "file_size": "3284543",
+        "file_md5": "85a9f5df8b7c14db0b290ea2b2eea027"
+      },
+      {
+        "name": "fexcore-latest",
+        "type": 1,
+        "version": "1",
+        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/fexcore-latest.tzst",
+        "file_name": "fexcore-latest.tzst",
+        "file_size": "1261068",
+        "file_md5": "7f8dd36ee6426c747b244d91d84e71ba"
+      },
       {
         "name": "8eGen5-842.8",
         "type": 2,

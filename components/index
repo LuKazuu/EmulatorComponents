@@ -2,20 +2,20 @@
   "code": 200,
   "msg": "Success",
   "data": {
-    "total_components": 10,
+    "total_components": 17,
     "categories": [
       {
         "type": 1,
         "name": "box64",
         "display_name": "Box64 Emulators",
-        "count": 3,
+        "count": 5,
         "manifest_url": "/components/box64_manifest"
       },
       {
         "type": 2,
         "name": "drivers",
         "display_name": "GPU Drivers",
-        "count": 3,
+        "count": 4,
         "manifest_url": "/components/drivers_manifest"
       },
       {
