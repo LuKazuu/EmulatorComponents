@@ -37,16 +37,16 @@
       },
       {
         "display_name": "",
-        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/8eGen5-842.8.tzst",
-        "file_md5": "f69bfda11b5ada8e6542e94896570193",
-        "file_name": "8eGen5-842.8.tzst",
-        "file_size": "12568832",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/qcom-849.tzst",
+        "file_md5": "a103453b4e5aef0db45845a813745a44",
+        "file_name": "qcom-849.tzst",
+        "file_size": "12584954",
         "id": 338,
         "is_ui": 1,
         "logo": "",
         "name": "SD-SYSTEM",
         "type": 2,
-        "version": "842.8",
+        "version": "849",
         "version_code": 1
       }
     ]
