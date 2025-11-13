@@ -2,6 +2,9 @@
   "code": 200,
   "msg": "Success",
   "data": {
+    "imagefs": {},
+    "container": {},
+    "component": [],
     "translations": {
       "box64": {
         "AlignedAtomics": "0",
