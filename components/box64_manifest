@@ -5,7 +5,7 @@
     "type": 1,
     "type_name": "box64",
     "display_name": "Box64 Emulators",
-    "total": 5,
+    "total": 4,
     "components": [
        {
         "display_name": "",
@@ -16,7 +16,7 @@
         "id": 501,
         "is_ui": 1,
         "logo": "",
-        "name": "box64-latest",
+        "name": "Box64-nightly",
         "type": 1,
         "version": "1.0.0",
         "version_code": 1
@@ -30,7 +30,7 @@
         "id": 500,
         "is_ui": 1,
         "logo": "",
-        "name": "fexcore-latest",
+        "name": "Fex_nightly",
         "type": 1,
         "version": "1.0.0",
         "version_code": 1
@@ -45,20 +45,6 @@
         "is_ui": 1,
         "logo": "",
         "name": "Box64-0.38",
-        "type": 1,
-        "version": "1.0.0",
-        "version_code": 1
-      },
-      {
-        "display_name": "",
-        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/fex-20251025.tzst",
-        "file_md5": "6d24fdf3f9e18a40d99612583f97dcc7",
-        "file_name": "fex-20251025.tzst",
-        "file_size": "11580115",
-        "id": 345,
-        "is_ui": 1,
-        "logo": "",
-        "name": "Fex-20251025",
         "type": 1,
         "version": "1.0.0",
         "version_code": 1

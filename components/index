@@ -2,13 +2,13 @@
   "code": 200,
   "msg": "Success",
   "data": {
-    "total_components": 17,
+    "total_components": 16,
     "categories": [
       {
         "type": 1,
         "name": "box64",
         "display_name": "Box64 Emulators",
-        "count": 5,
+        "count": 4,
         "manifest_url": "/components/box64_manifest"
       },
       {
