@@ -12,7 +12,7 @@
         "id": 503,
         "is_ui": 1,
         "logo": "",
-        "name": "Turnip_v26.0.0_R3_CB_Perf_Fix_Gmem",
+        "name": "Turnip_Gmem",
         "type": 2,
         "version": "1.0.0",
         "version_code": 1
@@ -26,7 +26,7 @@
         "id": 502,
         "is_ui": 1,
         "logo": "",
-        "name": "Turnip_v26.0.0_R3_CB_Perf_Fix",
+        "name": "Turnip_Auto",
         "type": 2,
         "version": "1.0.0",
         "version_code": 1
