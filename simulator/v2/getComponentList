@@ -3,6 +3,36 @@
   "msg": "Success",
   "data": {
     "list": [
+       {
+        "id": 501,
+        "version": "1",
+        "version_code": 1,
+        "type": 1,
+        "name": "box64-latest",
+        "logo": "",
+        "blurb": "",
+        "file_md5": "85a9f5df8b7c14db0b290ea2b2eea027",
+        "file_size": "3284543",
+        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/box64-latest.tzst",
+        "file_name": "box64-latest.tzst",
+        "display_name": "box64-latest",
+        "gpu_range": ""
+      },
+      {
+        "id": 500,
+        "version": "1",
+        "version_code": 1,
+        "type": 1,
+        "name": "fexcore-latest",
+        "logo": "",
+        "blurb": "",
+        "file_md5": "7f8dd36ee6426c747b244d91d84e71ba",
+        "file_size": "1261068",
+        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/fexcore-latest.tzst",
+        "file_name": "fexcore-latest.tzst",
+        "display_name": "fexcore-latest",
+        "gpu_range": ""
+      },
       {
         "id": 344,
         "version": "1.0.0",
@@ -49,7 +79,7 @@
         "gpu_range": ""
       }
     ],
-    "total": 3,
+    "total": 5,
     "page": 1,
     "pageSize": 10
   },
