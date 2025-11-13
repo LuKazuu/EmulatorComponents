@@ -37,7 +37,7 @@
       "is_steam": 1
     },
     "component_ids": [],
-    "component": [{}],
+    "component": [],
     "translations": {
       "box64": {
         "AlignedAtomics": "0",
