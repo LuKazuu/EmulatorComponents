@@ -43,7 +43,7 @@
         "version": "1.0.0",
         "version_code": 1,
         "type": 5,
-        "name": "base",
+        "name": "BASE",
         "logo": "",
         "blurb": "base",
         "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/base.tzst",
