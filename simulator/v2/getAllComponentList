@@ -110,23 +110,37 @@
         "id": 329,
         "is_ui": 1,
         "logo": "",
-        "name": "dxvk-v1.11.1-mali-fix",
+        "name": "dxvk-1.11.1",
         "type": 3,
         "version": "1.0.0",
         "version_code": 1
       },
       {
         "display_name": "",
-        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/dxvk-2.4.tzst",
-        "file_md5": "1ba3cd07e1e37034eee0d8dcd9103d6d",
-        "file_name": "dxvk-2.4.tzst",
-        "file_size": "9082166",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/dxvk-async-1.10.3.tzst",
+        "file_md5": "e6041eb8b5e8596e33bf0da1b9a4342f",
+        "file_name": "dxvk-async-1.10.3.tzst",
+        "file_size": "7850661",
+        "id": 24,
+        "is_ui": 1,
+        "logo": "",
+        "name": "dxvk-1.10.3-async",
+        "type": 3,
+        "version": "1.1.0",
+        "version_code": 7
+      },
+      {
+        "display_name": "",
+        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/dxvk-2.4.1.tzst",
+        "file_md5": "7f5b3dff40e7ff8439722271ef62bb79",
+        "file_name": "dxvk-2.4.1.tzst",
+        "file_size": "8835113",
         "id": 21,
         "is_ui": 1,
         "logo": "",
-        "name": "dxvk-2.4",
+        "name": "dxvk-2.4.1",
         "type": 3,
-        "version": "1.1.0",
+        "version": "1.0.0",
         "version_code": 3
       },
       {
@@ -228,7 +242,7 @@
         "version_code": 1
       }
     ],
-    "total": 16
+    "total": 17
   },
   "time": "1759448660"
 }
