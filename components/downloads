@@ -7,7 +7,7 @@
        {
         "name": "turnip-latest",
         "type": 2,
-        "version": "1",
+        "version": "1.0.0",
         "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/turnip-latest.tzst",
         "file_name": "turnip-latest.tzst",
         "file_size": "2602568",
@@ -16,7 +16,7 @@
       {
         "name": "box64-latest",
         "type": 1,
-        "version": "1",
+        "version": "1.0.0",
         "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/box64-latest.tzst",
         "file_name": "box64-latest.tzst",
         "file_size": "3284543",
@@ -25,7 +25,7 @@
       {
         "name": "fexcore-latest",
         "type": 1,
-        "version": "1",
+        "version": "1.0.0",
         "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/fexcore-latest.tzst",
         "file_name": "fexcore-latest.tzst",
         "file_size": "1261068",
