@@ -16,7 +16,7 @@
         "id": 503,
         "is_ui": 1,
         "logo": "",
-        "name": "Turnip_Gmem",
+        "name": "turnip_Gmem",
         "type": 2,
         "version": "1.0.0",
         "version_code": 1
@@ -30,7 +30,7 @@
         "id": 502,
         "is_ui": 1,
         "logo": "",
-        "name": "Turnip_Auto",
+        "name": "turnip_Auto",
         "type": 2,
         "version": "1.0.0",
         "version_code": 1
