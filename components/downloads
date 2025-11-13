@@ -11,7 +11,7 @@
         "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/turnip-latest.tzst",
         "file_name": "turnip-latest.tzst",
         "file_size": "",
-        "file_md5": ""
+        "file_md5": "0"
       },
       {
         "name": "box64-latest",
@@ -20,7 +20,7 @@
         "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/box64-latest.tzst",
         "file_name": "box64-latest.tzst",
         "file_size": "",
-        "file_md5": ""
+        "file_md5": "0"
       },
       {
         "name": "fexcore-latest",
@@ -29,7 +29,7 @@
         "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/fexcore-latest.tzst",
         "file_name": "fexcore-latest.tzst",
         "file_size": "",
-        "file_md5": ""
+        "file_md5": "0"
       },
       {
         "name": "8eGen5-842.8",
