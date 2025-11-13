@@ -5,8 +5,22 @@
     "type": 2,
     "type_name": "drivers",
     "display_name": "GPU Drivers",
-    "total": 3,
+    "total": 4,
     "components": [
+       {
+        "display_name": "",
+        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/turnip-latest.tzst",
+        "file_md5": "",
+        "file_name": "turnip-latest.tzst",
+        "file_size": "",
+        "id": 502,
+        "is_ui": 1,
+        "logo": "",
+        "name": "turnip-latest",
+        "type": 2,
+        "version": "1",
+        "version_code": 1
+      },
       {
         "display_name": "",
         "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/8eGen5-842.8.tzst",
