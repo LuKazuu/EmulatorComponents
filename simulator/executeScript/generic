@@ -14,7 +14,29 @@
       "logo": "",
       "display_name": "Firmware"
     },
-    "container": {},
+    "container_id": ,
+    "container": {
+      "id": ,
+      "version": "",
+      "version_code": ,
+      "name": "",
+      "logo": "",
+      "blurb": "",
+      "download_url": "",
+      "file_md5": "",
+      "file_size": "",
+      "file_name": "",
+      "sub_data": {
+        "sub_file_name": "",
+        "sub_download_url": "",
+        "sub_file_md5": ""
+      },
+      "framework": "",
+      "framework_type": "",
+      "display_name": "",
+      "is_steam": 1
+    },
+    "component_ids": [],
     "component": [],
     "translations": {
       "box64": {
