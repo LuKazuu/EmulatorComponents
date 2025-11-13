@@ -3,16 +3,30 @@
   "msg": "Success",
   "data": {
     "list": [
+        {
+        "display_name": "",
+        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/Turnip_v26.0.0_R3_CB_Perf_Fix_Gmem.tzst",
+        "file_md5": "9306de5f6ae73b1102f07755784264ce",
+        "file_name": "Turnip_v26.0.0_R3_CB_Perf_Fix_Gmem.tzst",
+        "file_size": "3060486",
+        "id": 503,
+        "is_ui": 1,
+        "logo": "",
+        "name": "Turnip_v26.0.0_R3_CB_Perf_Fix_Gmem",
+        "type": 2,
+        "version": "1.0.0",
+        "version_code": 1
+      },
        {
         "display_name": "",
-        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/turnip-latest.tzst",
-        "file_md5": "623dc603085340300fd312630094b9b9",
-        "file_name": "turnip-latest.tzst",
-        "file_size": "2602568",
+        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/Turnip_v26.0.0_R3_CB_Perf_Fix.tzst",
+        "file_md5": "740ec004ac68e7383600838186896b8b",
+        "file_name": "Turnip_v26.0.0_R3_CB_Perf_Fix.tzst",
+        "file_size": "3060261",
         "id": 502,
         "is_ui": 1,
         "logo": "",
-        "name": "turnip-latest",
+        "name": "Turnip_v26.0.0_R3_CB_Perf_Fix",
         "type": 2,
         "version": "1.0.0",
         "version_code": 1
@@ -26,7 +40,7 @@
         "id": 501,
         "is_ui": 1,
         "logo": "",
-        "name": "box64-latest",
+        "name": "Box64-nightly",
         "type": 1,
         "version": "1.0.0",
         "version_code": 1
@@ -40,7 +54,7 @@
         "id": 500,
         "is_ui": 1,
         "logo": "",
-        "name": "fexcore-latest",
+        "name": "Fex_nightly",
         "type": 1,
         "version": "1.0.0",
         "version_code": 1
@@ -70,20 +84,6 @@
         "logo": "",
         "name": "steam_9866232",
         "type": 7,
-        "version": "1.0.0",
-        "version_code": 1
-      },
-      {
-        "display_name": "",
-        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/turnip_v26.0.0_R2.tzst",
-        "file_md5": "822e423fb4a7d8185b342fc641bdfa22",
-        "file_name": "turnip_v26.0.0_R2.tzst",
-        "file_size": "3168214",
-        "id": 347,
-        "is_ui": 1,
-        "logo": "",
-        "name": "turnip_v26.0.0_R2",
-        "type": 2,
         "version": "1.0.0",
         "version_code": 1
       },
@@ -159,20 +159,6 @@
       },
       {
         "display_name": "",
-        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/fex-20251025.tzst",
-        "file_md5": "6d24fdf3f9e18a40d99612583f97dcc7",
-        "file_name": "fex-20251025.tzst",
-        "file_size": "11580115",
-        "id": 345,
-        "is_ui": 1,
-        "logo": "",
-        "name": "Fex-20251025",
-        "type": 1,
-        "version": "1.0.0",
-        "version_code": 1
-      },
-      {
-        "display_name": "",
         "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/fex-20250910.tzst",
         "file_md5": "37a75036118dc0f14ad2ae1b6e1561fc",
         "file_name": "fex-20250910.tzst",
@@ -242,7 +228,7 @@
         "version_code": 1
       }
     ],
-    "total": 17
+    "total": 16
   },
   "time": "1759448660"
 }

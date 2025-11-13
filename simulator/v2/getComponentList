@@ -8,14 +8,14 @@
         "version": "1.0.0",
         "version_code": 1,
         "type": 1,
-        "name": "box64-latest",
+        "name": "Box64-nightly",
         "logo": "",
         "blurb": "",
         "file_md5": "85a9f5df8b7c14db0b290ea2b2eea027",
         "file_size": "3284543",
         "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/box64-latest.tzst",
         "file_name": "box64-latest.tzst",
-        "display_name": "box64-latest",
+        "display_name": "Box64-nightly",
         "gpu_range": ""
       },
       {
@@ -23,14 +23,14 @@
         "version": "1.0.0",
         "version_code": 1,
         "type": 1,
-        "name": "fexcore-latest",
+        "name": "Fex_nightly",
         "logo": "",
         "blurb": "",
         "file_md5": "7f8dd36ee6426c747b244d91d84e71ba",
         "file_size": "1261068",
         "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/fexcore-latest.tzst",
         "file_name": "fexcore-latest.tzst",
-        "display_name": "fexcore-latest",
+        "display_name": "Fex_nightly",
         "gpu_range": ""
       },
       {
@@ -49,21 +49,6 @@
         "gpu_range": ""
       },
       {
-        "id": 345,
-        "version": "1.0.0",
-        "version_code": 1,
-        "type": 1,
-        "name": "Fex-20251025",
-        "logo": "",
-        "blurb": "",
-        "file_md5": "6d24fdf3f9e18a40d99612583f97dcc7",
-        "file_size": "11580115",
-        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/fex-20251025.tzst",
-        "file_name": "fex-20251025.tzst",
-        "display_name": "Fex-20251025",
-        "gpu_range": ""
-      },
-      {
         "id": 323,
         "version": "1.0.1",
         "version_code": 2,
@@ -79,7 +64,7 @@
         "gpu_range": ""
       }
     ],
-    "total": 5,
+    "total": 4,
     "page": 1,
     "pageSize": 10
   },
