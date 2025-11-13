@@ -8,28 +8,28 @@
         "type": 1,
         "name": "box64",
         "display_name": "Box64 Emulators",
-        "count": 4,
+        "count": 2,
         "manifest_url": "/components/box64_manifest"
       },
       {
         "type": 2,
         "name": "drivers",
         "display_name": "GPU Drivers",
-        "count": 4,
+        "count": 3,
         "manifest_url": "/components/drivers_manifest"
       },
       {
         "type": 3,
         "name": "dxvk",
         "display_name": "DXVK Layers",
-        "count": 4,
+        "count": 2,
         "manifest_url": "/components/dxvk_manifest"
       },
       {
         "type": 4,
         "name": "vkd3d",
         "display_name": "VKD3D Proton",
-        "count": 2,
+        "count": 1,
         "manifest_url": "/components/vkd3d_manifest"
       },
       {

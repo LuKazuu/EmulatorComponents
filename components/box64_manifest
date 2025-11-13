@@ -5,18 +5,18 @@
     "type": 1,
     "type_name": "box64",
     "display_name": "Box64 Emulators",
-    "total": 4,
+    "total": 2,
     "components": [
        {
         "display_name": "",
         "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/box64-latest.tzst",
-        "file_md5": "85a9f5df8b7c14db0b290ea2b2eea027",
+        "file_md5": "68e0be115d5aa5f4e1df195d139d65ae",
         "file_name": "box64-latest.tzst",
-        "file_size": "3284543",
+        "file_size": "3207716",
         "id": 501,
         "is_ui": 1,
         "logo": "",
-        "name": "Box64-nightly",
+        "name": "BOX64-NIGHTLY",
         "type": 1,
         "version": "1.0.0",
         "version_code": 1
@@ -24,44 +24,16 @@
       {
         "display_name": "",
         "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/fexcore-latest.tzst",
-        "file_md5": "7f8dd36ee6426c747b244d91d84e71ba",
+        "file_md5": "325a590d4787bfc09a615b372f581643",
         "file_name": "fexcore-latest.tzst",
-        "file_size": "1261068",
+        "file_size": "1261066",
         "id": 500,
         "is_ui": 1,
         "logo": "",
-        "name": "Fex_nightly",
+        "name": "FEXCORE-NIGHTLY",
         "type": 1,
         "version": "1.0.0",
         "version_code": 1
-      },
-      {
-        "display_name": "",
-        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/Box64-0.38.tzst",
-        "file_md5": "7d91a3edb0b829b9359dd494754ab521",
-        "file_name": "Box64-0.38.tzst",
-        "file_size": "4279460",
-        "id": 344,
-        "is_ui": 1,
-        "logo": "",
-        "name": "Box64-0.38",
-        "type": 1,
-        "version": "1.0.0",
-        "version_code": 1
-      },
-      {
-        "display_name": "",
-        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/fex-20250910.tzst",
-        "file_md5": "37a75036118dc0f14ad2ae1b6e1561fc",
-        "file_name": "fex-20250910.tzst",
-        "file_size": "11580702",
-        "id": 323,
-        "is_ui": 1,
-        "logo": "",
-        "name": "Fex_20250910",
-        "type": 1,
-        "version": "1.0.1",
-        "version_code": 2
       }
     ]
   }

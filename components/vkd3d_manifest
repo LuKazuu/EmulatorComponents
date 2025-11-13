@@ -5,34 +5,20 @@
     "type": 4,
     "type_name": "vkd3d",
     "display_name": "VKD3D Proton",
-    "total": 2,
+    "total": 1,
     "components": [
       {
         "display_name": "",
-        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/vkd3d-proton-2.14.1.tzst",
-        "file_md5": "4b5207e61ac2cd7132fa67abca84e7f1",
-        "file_name": "vkd3d-proton-2.14.1.tzst",
-        "file_size": "2959743",
+        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/vkd3d-2.14.1.tzst",
+        "file_md5": "55833d16604e507b34db0754a8a9a77f",
+        "file_name": "vkd3d-2.14.1.tzst",
+        "file_size": "4817509",
         "id": 208,
         "is_ui": 1,
         "logo": "",
-        "name": "vkd3d-proton-2.14.1",
+        "name": "VKD3D-PROTON",
         "type": 4,
-        "version": "1.1.1",
-        "version_code": 1
-      },
-      {
-        "display_name": "",
-        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/vkd3d-2.12.tzst",
-        "file_md5": "4f3e99438281f7749cb2b8b2412c9d10",
-        "file_name": "vkd3d-2.12.tzst",
-        "file_size": "2643215",
-        "id": 7,
-        "is_ui": 1,
-        "logo": "",
-        "name": "vkd3d-2.12",
-        "type": 4,
-        "version": "1.1.1",
+        "version": "2.14.1-7346",
         "version_code": 1
       }
     ]

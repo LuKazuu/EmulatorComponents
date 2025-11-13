@@ -5,32 +5,32 @@
     "type": 2,
     "type_name": "drivers",
     "display_name": "GPU Drivers",
-    "total": 4,
+    "total": 3,
     "components": [
         {
         "display_name": "",
-        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/Turnip_v26.0.0_R3_CB_Perf_Fix_Gmem.tzst",
+        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/Turnip_v26.0.0_R3_CB_Perf_Fix_Gmem.tzst",
         "file_md5": "9306de5f6ae73b1102f07755784264ce",
         "file_name": "Turnip_v26.0.0_R3_CB_Perf_Fix_Gmem.tzst",
         "file_size": "3060486",
         "id": 503,
         "is_ui": 1,
         "logo": "",
-        "name": "turnip_latest_GMEM",
+        "name": "TURNIP-GMEM",
         "type": 2,
         "version": "1.0.0",
         "version_code": 1
       },
        {
         "display_name": "",
-        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/Turnip_v26.0.0_R3_CB_Perf_Fix.tzst",
+        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/Turnip_v26.0.0_R3_CB_Perf_Fix.tzst",
         "file_md5": "740ec004ac68e7383600838186896b8b",
         "file_name": "Turnip_v26.0.0_R3_CB_Perf_Fix.tzst",
         "file_size": "3060261",
         "id": 502,
         "is_ui": 1,
         "logo": "",
-        "name": "turnip_latest_AUTO",
+        "name": "TURNIP-AUTO",
         "type": 2,
         "version": "1.0.0",
         "version_code": 1
@@ -44,23 +44,9 @@
         "id": 338,
         "is_ui": 1,
         "logo": "",
-        "name": "8eGen5-842.8",
+        "name": "SD8ELITE-842.8",
         "type": 2,
         "version": "1.0.0",
-        "version_code": 1
-      },
-      {
-        "display_name": "",
-        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/turnip_v25.0.0_R1.tzst",
-        "file_md5": "a56b24886555c6c5d30c93fdb7b0f8f3",
-        "file_name": "turnip_v25.0.0_R1.tzst",
-        "file_size": "2221425",
-        "id": 48,
-        "is_ui": 1,
-        "logo": "",
-        "name": "turnip_v25.0.0_R1",
-        "type": 2,
-        "version": "1.1.0",
         "version_code": 1
       }
     ]

@@ -2,46 +2,46 @@
   "code": 200,
   "msg": "Success",
   "data": {
-    "total": 17,
+    "total": 11,
     "downloads": [
         {
-        "name": "turnip_latest_GMEM",
+        "name": "TURNIP-GMEM",
         "type": 2,
-        "version": "1.0.0",
-        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/Turnip_v26.0.0_R3_CB_Perf_Fix_Gmem.tzst",
+        "version": "26.0.0-3",
+        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/Turnip_v26.0.0_R3_CB_Perf_Fix_Gmem.tzst",
         "file_name": "Turnip_v26.0.0_R3_CB_Perf_Fix_Gmem.tzst",
         "file_size": "3060486",
         "file_md5": "9306de5f6ae73b1102f07755784264ce"
       },
        {
-        "name": "turnip_latest_AUTO",
+        "name": "TURNIP-AUTO",
         "type": 2,
-        "version": "1.0.0",
-        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/Turnip_v26.0.0_R3_CB_Perf_Fix.tzst",
+        "version": "26.0.0-3",
+        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/Turnip_v26.0.0_R3_CB_Perf_Fix.tzst",
         "file_name": "Turnip_v26.0.0_R3_CB_Perf_Fix.tzst",
         "file_size": "3060261",
         "file_md5": "740ec004ac68e7383600838186896b8b"
       },
       {
-        "name": "Box64-nightly",
+        "name": "BOX64-NIGHTLY",
         "type": 1,
         "version": "1.0.0",
         "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/box64-latest.tzst",
         "file_name": "box64-latest.tzst",
-        "file_size": "3284543",
-        "file_md5": "85a9f5df8b7c14db0b290ea2b2eea027"
+        "file_size": "3207716",
+        "file_md5": "68e0be115d5aa5f4e1df195d139d65ae"
       },
       {
-        "name": "Fex_nightly",
+        "name": "FEXCORE-NIGHTLY",
         "type": 1,
         "version": "1.0.0",
         "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/fexcore-latest.tzst",
         "file_name": "fexcore-latest.tzst",
-        "file_size": "1261068",
-        "file_md5": "7f8dd36ee6426c747b244d91d84e71ba"
+        "file_size": "1261066",
+        "file_md5": "325a590d4787bfc09a615b372f581643"
       },
       {
-        "name": "8eGen5-842.8",
+        "name": "SD8ELITE-842.8",
         "type": 2,
         "version": "1.0.0",
         "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/f69bfda11b5ada8e6542e94896570193.tzst",
@@ -59,67 +59,22 @@
         "file_md5": "3d9d01362622a782a27ae691427b786c"
       },
       {
-        "name": "turnip_v25.0.0_R1",
-        "type": 2,
-        "version": "1.1.0",
-        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/turnip_v25.0.0_R1.tzst",
-        "file_name": "turnip_v25.0.0_R1.tzst",
-        "file_size": "2221425",
-        "file_md5": "a56b24886555c6c5d30c93fdb7b0f8f3"
+        "name": "DXVK-MALI",
+        "type": 3,
+        "version": "1.11.1",
+        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/dxvk-1.11.1.tzst",
+        "file_name": "dxvk-1.11.1.tzst",
+        "file_size": "7538204",
+        "file_md5": "7f7fd07910561bd630cb2c84186e9e0b"
       },
       {
-        "name": "dxvk-1.11.1",
+        "name": "DXVK-ADRENO",
         "type": 3,
-        "version": "1.0.0",
-        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/9f83bc10819ff9636a7300dcd114ba87.tzst",
-        "file_name": "dxvk-v1.11.1-mali-fix.tzst",
-        "file_size": "7789100",
-        "file_md5": "9f83bc10819ff9636a7300dcd114ba87"
-      },
-      {
-        "name": "dxvk-1.10.3-async",
-        "type": 3,
-        "version": "1.1.0",
-        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/dxvk-async-1.10.3.tzst",
-        "file_name": "dxvk-async-1.10.3.tzst",
-        "file_size": "7850661",
-        "file_md5": "e6041eb8b5e8596e33bf0da1b9a4342f"
-      },
-      {
-        "name": "dxvk-2.4.1",
-        "type": 3,
-        "version": "1.0.0",
-        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/dxvk-2.4.1.tzst",
+        "version": "2.4.1",
+        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/dxvk-2.4.1.tzst",
         "file_name": "dxvk-2.4.1.tzst",
         "file_size": "8835113",
         "file_md5": "7f5b3dff40e7ff8439722271ef62bb79"
-      },
-      {
-        "name": "dxvk-2.3.1-async",
-        "type": 3,
-        "version": "1.1.0",
-        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/dxvk-async-2.3.1.tzst",
-        "file_name": "dxvk-async-2.3.1.tzst",
-        "file_size": "7914709",
-        "file_md5": "55c653ec6d8536dcac71dcfc2aecc299"
-      },
-      {
-        "name": "Box64-0.38",
-        "type": 1,
-        "version": "1.0.0",
-        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/Box64-0.38.tzst",
-        "file_name": "Box64-0.38.tzst",
-        "file_size": "4279460",
-        "file_md5": "7d91a3edb0b829b9359dd494754ab521"
-      },
-      {
-        "name": "Fex_20250910",
-        "type": 1,
-        "version": "1.0.1",
-        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/fex-20250910.tzst",
-        "file_name": "fex-20250910.tzst",
-        "file_size": "11580702",
-        "file_md5": "37a75036118dc0f14ad2ae1b6e1561fc"
       },
       {
         "name": "steamagent",
@@ -131,22 +86,13 @@
         "file_md5": "08948711f330b5cd705c836b458127d5"
       },
       {
-        "name": "vkd3d-proton-2.14.1",
+        "name": "VKD3D-PROTON",
         "type": 4,
-        "version": "1.1.1",
-        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/vkd3d-proton-2.14.1.tzst",
-        "file_name": "vkd3d-proton-2.14.1.tzst",
-        "file_size": "2959743",
-        "file_md5": "4b5207e61ac2cd7132fa67abca84e7f1"
-      },
-      {
-        "name": "vkd3d-2.12",
-        "type": 4,
-        "version": "1.1.1",
-        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/vkd3d-2.12.tzst",
-        "file_name": "vkd3d-2.12.tzst",
-        "file_size": "2643215",
-        "file_md5": "4f3e99438281f7749cb2b8b2412c9d10"
+        "version": "2.14.1-7346",
+        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/vkd3d-2.14.1.tzst",
+        "file_name": "vkd3d-2.14.1.tzst",
+        "file_size": "4817509",
+        "file_md5": "55833d16604e507b34db0754a8a9a77f"
       },
       {
         "name": "base",
