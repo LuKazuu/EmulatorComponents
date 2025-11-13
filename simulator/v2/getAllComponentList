@@ -3,6 +3,48 @@
   "msg": "Success",
   "data": {
     "list": [
+       {
+        "display_name": "",
+        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/turnip-latest.tzst",
+        "file_md5": "",
+        "file_name": "turnip-latest.tzst",
+        "file_size": "",
+        "id": 502,
+        "is_ui": 1,
+        "logo": "",
+        "name": "turnip-latest",
+        "type": 2,
+        "version": "1",
+        "version_code": 1
+      },
+      {
+        "display_name": "",
+        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/box64-latest.tzst",
+        "file_md5": "",
+        "file_name": "box64-latest",
+        "file_size": "",
+        "id": 501,
+        "is_ui": 1,
+        "logo": "",
+        "name": "box64-latest",
+        "type": 1,
+        "version": "1",
+        "version_code": 1
+      },
+      {
+        "display_name": "",
+        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/fexcore-latest.tzst",
+        "file_md5": "",
+        "file_name": "fexcore-latest.tzst",
+        "file_size": "",
+        "id": 500,
+        "is_ui": 1,
+        "logo": "",
+        "name": "fexcore-latest",
+        "type": 1,
+        "version": "1",
+        "version_code": 1
+      },
       {
         "display_name": "",
         "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/f69bfda11b5ada8e6542e94896570193.tzst",
@@ -200,7 +242,7 @@
         "version_code": 1
       }
     ],
-    "total": 14
+    "total": 17
   },
   "time": "1759448660"
 }
