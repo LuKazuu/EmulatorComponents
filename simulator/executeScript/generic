@@ -14,11 +14,11 @@
       "logo": "",
       "display_name": "Firmware"
     },
-    "container_id": "",
+    "container_id": null,
     "container": {
-      "id": "",
+      "id": null,
       "version": "",
-      "version_code": ,
+      "version_code": null,
       "name": "",
       "logo": "",
       "blurb": "",
