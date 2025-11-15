@@ -14,7 +14,7 @@
         "logo": "",
         "name": "FEXCORE-NIGHTLY",
         "type": 1,
-        "version": "1.0.0",
+        "version": "2511-251115",
         "version_code": 1
       },
       {
@@ -28,7 +28,7 @@
         "logo": "",
         "name": "BOX64-NIGHTLY",
         "type": 1,
-        "version": "1.0.0",
+        "version": "0.3.9-251115",
         "version_code": 1
       },
       {
