@@ -9,7 +9,7 @@
       "sub_type": 0
     },
     {
-      "name": "Compatibility layer",
+      "name": "Wine Proton",
       "type": 2,
       "sub_type": 0
     },
@@ -19,7 +19,7 @@
       "sub_type": 1
     },
     {
-      "name": "GPUdriver",
+      "name": "GPU Driver",
       "type": 3,
       "sub_type": 2
     },
