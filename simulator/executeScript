@@ -36,7 +36,8 @@
       "display_name": "PROTON10.0-ARM64",
       "is_steam": 1
     },
-    "component": {
+    "component": [
+      {
         "id": 8,
         "version": "1.0.0",
         "version_code": 1,
@@ -52,7 +53,8 @@
         "is_base": 0,
         "base_type": 0,
         "is_ui": 1
-    },
+      }
+    ],
     "translations": {
       "box64": {
         "AlignedAtomics": "0",
