@@ -71,7 +71,7 @@
         "name": "DXVK-SNAPDRAGON",
         "type": 3,
         "version": "2.4.1",
-        "version_code": 3
+        "version_code": 1
       },
       {
         "display_name": "",
@@ -140,8 +140,8 @@
         "logo": "",
         "name": "STEAMAGENT",
         "type": 5,
-        "version": "1.0.4",
-        "version_code": 5
+        "version": "1.0.0",
+        "version_code": 1
       }
     ],
     "total": 10
