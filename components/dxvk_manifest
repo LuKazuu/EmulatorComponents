@@ -9,31 +9,31 @@
     "components": [
       {
         "display_name": "",
-        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/dxvk-1.11.1.tzst",
-        "file_md5": "7f7fd07910561bd630cb2c84186e9e0b",
-        "file_name": "dxvk-1.11.1.tzst",
-        "file_size": "7538204",
-        "id": 329,
-        "is_ui": 1,
-        "logo": "",
-        "name": "DXVK-MALI",
-        "type": 3,
-        "version": "1.11.1",
-        "version_code": 1
-      },
-      {
-        "display_name": "",
         "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/dxvk-2.4.1.tzst",
         "file_md5": "7f5b3dff40e7ff8439722271ef62bb79",
         "file_name": "dxvk-2.4.1.tzst",
         "file_size": "8835113",
-        "id": 21,
+        "id": 61,
         "is_ui": 1,
         "logo": "",
-        "name": "DXVK-ADRENO",
+        "name": "DXVK-SNAPDRAGON",
         "type": 3,
         "version": "2.4.1",
-        "version_code": 3
+        "version_code": 1
+      },
+      {
+        "display_name": "",
+        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/dxvk-1.11.1.tzst",
+        "file_md5": "7f7fd07910561bd630cb2c84186e9e0b",
+        "file_name": "dxvk-1.11.1.tzst",
+        "file_size": "7538204",
+        "id": 62,
+        "is_ui": 1,
+        "logo": "",
+        "name": "DXVK-MEDIATEK",
+        "type": 3,
+        "version": "1.11.1",
+        "version_code": 1
       }
     ]
   }
