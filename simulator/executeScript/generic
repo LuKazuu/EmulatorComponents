@@ -51,7 +51,7 @@
         "file_size": "40612198",
         "file_name": "base.tzst",
         "display_name": "BASE",
-        "is_base": 0,
+        "is_base": 1,
         "base_type": 0,
         "is_ui": 0
       }
