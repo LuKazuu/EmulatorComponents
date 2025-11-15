@@ -34,7 +34,7 @@
     },
     "base": {
       "id": 8,
-      "type": 5,
+      "type": 7,
       "version": "1.0.0",
       "version_code": 1,
       "name": "BASE",
