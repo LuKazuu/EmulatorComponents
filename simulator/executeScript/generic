@@ -53,7 +53,7 @@
         "display_name": "BASE",
         "is_base": 1,
         "base_type": 0,
-        "is_ui": 0
+        "is_ui": 1
       }
     ],
     "translations": {
