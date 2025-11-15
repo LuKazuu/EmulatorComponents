@@ -18,7 +18,7 @@
       "id": 2,
       "version": "1.0.3",
       "version_code": 4,
-      "name": "PROTON10.0-ARM64",
+      "name": "PROTON-10.0-ARM64",
       "logo": "",
       "blurb": "",
       "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/wine_proton10.0-arm64x-2.tar.zst",
@@ -32,7 +32,7 @@
       },
       "framework": "arm64X",
       "framework_type": "proton",
-      "display_name": "PROTON10.0-ARM64",
+      "display_name": "PROTON-10.0-ARM64",
       "is_steam": 1
     },
     "component": [
