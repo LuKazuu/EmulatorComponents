@@ -45,7 +45,7 @@
         "type": 5,
         "name": "BASE",
         "logo": "",
-        "blurb": "base",
+        "blurb": "BASE",
         "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/base.tzst",
         "file_md5": "3d5c31b1346985d582f04d239004b4d7",
         "file_size": "40612198",
