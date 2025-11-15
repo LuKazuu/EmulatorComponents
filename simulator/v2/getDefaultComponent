@@ -31,20 +31,6 @@
       "file_size": "41192642",
       "file_name": "steam_9866232.tar.zst",
       "display_name": "STEAM_9866232"
-    },
-    "base": {
-      "id": 8,
-      "type": 7,
-      "version": "1.0.0",
-      "version_code": 1,
-      "name": "BASE",
-      "logo": "",
-      "blurb": "",
-      "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/base.tzst",
-      "file_md5": "3d5c31b1346985d582f04d239004b4d7",
-      "file_size": "40612198",
-      "file_name": "base.tzst",
-      "display_name": "BASE"
     }
   },
   "time": "1759470602"
