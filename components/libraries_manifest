@@ -5,7 +5,22 @@
     "type": 6,
     "type_name": "libraries",
     "display_name": "System Libraries",
-    "total": 0,
-    "components": []
+    "total": 1,
+    "components": [
+      {
+        "display_name": "",
+        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/cjkfonts.yml",
+        "file_md5": "fd3d7cfbff1e2f8325694c23d0f38c8a",
+        "file_name": "cjkfonts.yml",
+        "file_size": "4028",
+        "id": 102,
+        "is_ui": 1,
+        "logo": "",
+        "name": "CJKFONTS",
+        "type": 6,
+        "version": "1.0.0",
+        "version_code": 1
+      }
+    ]
   }
 }
