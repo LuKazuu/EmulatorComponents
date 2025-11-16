@@ -9,7 +9,7 @@
     "components": [
       {
         "display_name": "",
-        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/base.tzst",
+        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/base.tzst",
         "file_md5": "3d5c31b1346985d582f04d239004b4d7",
         "file_name": "base.tzst",
         "file_size": "40612198",
@@ -23,7 +23,7 @@
       },
       {
         "display_name": "",
-        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/steamagent.tar.zst",
+        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/steamagent.tar.zst",
         "file_md5": "08948711f330b5cd705c836b458127d5",
         "file_name": "steamagent.tar.zst",
         "file_size": "1907395",
