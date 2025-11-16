@@ -9,12 +9,12 @@
       "sub_type": 0
     },
     {
-      "name": "Wine & Proton",
+      "name": "Proton & Wine",
       "type": 2,
       "sub_type": 0
     },
     {
-      "name": "Box64 & FEXCore",
+      "name": "FEXCore & Box64",
       "type": 3,
       "sub_type": 1
     },
