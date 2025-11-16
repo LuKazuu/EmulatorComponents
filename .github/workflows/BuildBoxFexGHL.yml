@@ -202,7 +202,7 @@ jobs:
           SIZE: ${{ steps.package_box64.outputs.size }}
           MD5: ${{ steps.package_box64.outputs.md5 }}
         run: |
-          echo "RELEASE_INFO=**Box64**: ${DEV}-${DATECODE} ([${SHORT}](https://github.com/ptitSeb/box64/commit/${SHA}))<br>Size: ${SIZE} bytes<br>MD5: ${MD5}" >> "$GITHUB_OUTPUT"
+          echo "RELEASE_INFO=#####<br>**Box64**: ${DEV}-${DATECODE} ([${SHORT}](https://github.com/ptitSeb/box64/commit/${SHA}))<br>Size: ${SIZE} bytes<br>MD5: ${MD5}" >>"$GITHUB_OUTPUT"          
 
   build-fexcore:
     name: Build FEXCore
@@ -444,7 +444,7 @@ jobs:
           SIZE: ${{ steps.package_fexcore.outputs.size }}
           MD5: ${{ steps.package_fexcore.outputs.md5 }}
         run: |
-          echo "RELEASE_INFO=**FEXCore**: ${STABLE}-${DATE} ([${SHORTSHA}](https://github.com/FEX-Emu/FEX/commit/${SHA}))<br>Size: ${SIZE} bytes<br>MD5: ${MD5}" >> "$GITHUB_OUTPUT"
+          echo "RELEASE_INFO=#####<br>**FEXCore**: ${STABLE}-${DATE} ([${SHORTSHA}](https://github.com/FEX-Emu/FEX/commit/${SHA}))<br>Size: ${SIZE} bytes<br>MD5: ${MD5}<br>#####" >> "$GITHUB_OUTPUT"
 
   create-release:
     name: Create Combined Release
@@ -483,16 +483,16 @@ jobs:
           gh release view combined-latest -R ${{ github.repository }} --json body --jq .body > $NOTES_FILE || echo -e "Automated Combined Release\n" > $NOTES_FILE
 
           if [ "${{ needs.build-box64.result }}" == "success" ]; then
-            if grep -q "^\*\*Box64\*\*:" $NOTES_FILE; then
-              sed -i "s|^\*\*Box64\*\*.*|$BOX64_INFO|" $NOTES_FILE
+            if grep -q "\*\*Box64\*\*:" $NOTES_FILE; then
+              sed -i "s|.*\*\*Box64\*\*.*|$BOX64_INFO|" $NOTES_FILE
             else
               echo "$BOX64_INFO" >> $NOTES_FILE
             fi
           fi
 
           if [ "${{ needs.build-fexcore.result }}" == "success" ]; then
-            if grep -q "^\*\*FEXCore\*\*:" $NOTES_FILE; then
-              sed -i "s|^\*\*FEXCore\*\*.*|$FEXCORE_INFO|" $NOTES_FILE
+            if grep -q "\*\*FEXCore\*\*:" $NOTES_FILE; then
+              sed -i "s|.*\*\*FEXCore\*\*.*|$FEXCORE_INFO|" $NOTES_FILE
             else
               echo "$FEXCORE_INFO" >> $NOTES_FILE
             fi
