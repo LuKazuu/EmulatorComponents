@@ -202,7 +202,7 @@ jobs:
           SIZE: ${{ steps.package_box64.outputs.size }}
           MD5: ${{ steps.package_box64.outputs.md5 }}
         run: |
-          echo "RELEASE_INFO=<br>**Box64**: ${DEV}-${DATECODE} ([${SHORT}](https://github.com/ptitSeb/box64/commit/${SHA}))<br>Size: ${SIZE} bytes<br>MD5: ${MD5}" >>"$GITHUB_OUTPUT"          
+          echo "RELEASE_INFO=**Box64**: ${DEV}-${DATECODE} ([${SHORT}](https://github.com/ptitSeb/box64/commit/${SHA}))<br>Size: ${SIZE} bytes<br>MD5: ${MD5}" >>"$GITHUB_OUTPUT"          
 
   build-fexcore:
     name: Build FEXCore
@@ -444,7 +444,7 @@ jobs:
           SIZE: ${{ steps.package_fexcore.outputs.size }}
           MD5: ${{ steps.package_fexcore.outputs.md5 }}
         run: |
-          echo "RELEASE_INFO=<br><br>**FEXCore**: ${STABLE}-${DATE} ([${SHORTSHA}](https://github.com/FEX-Emu/FEX/commit/${SHA}))<br>Size: ${SIZE} bytes<br>MD5: ${MD5}" >> "$GITHUB_OUTPUT"
+          echo "RELEASE_INFO=<br>**FEXCore**: ${STABLE}-${DATE} ([${SHORTSHA}](https://github.com/FEX-Emu/FEX/commit/${SHA}))<br>Size: ${SIZE} bytes<br>MD5: ${MD5}" >> "$GITHUB_OUTPUT"
 
   create-release:
     name: Create Combined Release
