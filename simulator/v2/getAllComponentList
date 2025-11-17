@@ -75,11 +75,25 @@
       },
       {
         "display_name": "",
+        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/dxvk-1.10.3.tzst",
+        "file_md5": "2ff705686beb32f37184e0a8151932f7",
+        "file_name": "dxvk-1.10.3.tzst",
+        "file_size": "7555280",
+        "id": 62,
+        "is_ui": 1,
+        "logo": "",
+        "name": "DXVK-OLD",
+        "type": 3,
+        "version": "1.10.3",
+        "version_code": 1
+      },
+      {
+        "display_name": "",
         "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/dxvk-2.4.1.tzst",
         "file_md5": "7f5b3dff40e7ff8439722271ef62bb79",
         "file_name": "dxvk-2.4.1.tzst",
         "file_size": "8835113",
-        "id": 62,
+        "id": 63,
         "is_ui": 1,
         "logo": "",
         "name": "DXVK-TURNIP",
@@ -93,10 +107,10 @@
         "file_md5": "7f7fd07910561bd630cb2c84186e9e0b",
         "file_name": "dxvk-1.11.1.tzst",
         "file_size": "7538204",
-        "id": 63,
+        "id": 64,
         "is_ui": 1,
         "logo": "",
-        "name": "DXVK-OTHERS",
+        "name": "DXVK-OTHER",
         "type": 3,
         "version": "1.11.1",
         "version_code": 1
@@ -158,7 +172,7 @@
         "version_code": 1
       }
     ],
-    "total": 11
+    "total": 12
   },
   "time": "1759448660"
 }
