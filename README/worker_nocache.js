@@ -1,4 +1,5 @@
 // Tanpa Server CN
+// Tanpa Cache
 // Aera
 
 const GITHUB_BASE = 'https://raw.githubusercontent.com/LuKazuu/EmulatorComponents/main';
@@ -135,4 +136,5 @@ export default {
 			});
 		}
 	},
+
 };
