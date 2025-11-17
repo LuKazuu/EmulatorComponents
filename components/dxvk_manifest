@@ -9,16 +9,16 @@
     "components": [
       {
         "display_name": "",
-        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/dxvk-2.7.1.tzst",
-        "file_md5": "437ea6b7e3e1dfe3a6889192e8e16693",
-        "file_name": "dxvk-2.7.1.tzst",
-        "file_size": "10249725",
+        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/dxvk-2.7.1-7657.tzst",
+        "file_md5": "44f906be5e4b3ddb975efda35b1ee6eb",
+        "file_name": "dxvk-2.7.1-7657.tzst",
+        "file_size": "15106779",
         "id": 61,
         "is_ui": 1,
         "logo": "",
         "name": "DXVK-LATEST",
         "type": 3,
-        "version": "2.7.1",
+        "version": "2.7.1-7657",
         "version_code": 1
       },
       {
