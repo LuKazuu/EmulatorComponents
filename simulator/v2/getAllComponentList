@@ -6,9 +6,9 @@
       {
         "display_name": "",
         "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/fexcore-latest.tzst",
-        "file_md5": "449129899c40d6d67eadbab2d554f7cf",
+        "file_md5": "cb87f73fc81c31acaf6ead237ff9cb08",
         "file_name": "fexcore-latest.tzst",
-        "file_size": "1261084",
+        "file_size": "1262278",
         "id": 21,
         "is_ui": 1,
         "logo": "",
@@ -20,9 +20,9 @@
       {
         "display_name": "",
         "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/box64-latest.tzst",
-        "file_md5": "c2459d13d0b9a4264318454a3fa6c538",
+        "file_md5": "8b392c05bac86be9a9da1c8d6d9165ae",
         "file_name": "box64-latest",
-        "file_size": "3252360",
+        "file_size": "3256769",
         "id": 22,
         "is_ui": 1,
         "logo": "",
