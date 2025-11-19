@@ -6,21 +6,6 @@
     "type_name": "steam",
     "display_name": "Steam Components",
     "total": 1,
-    "components": [
-      {
-        "display_name": "",
-        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/steam_9866232.tar.zst",
-        "file_md5": "3d9d01362622a782a27ae691427b786c",
-        "file_name": "steam_9866232.tar.zst",
-        "file_size": "41192642",
-        "id": 102,
-        "is_ui": 1,
-        "logo": "",
-        "name": "STEAM_9866232",
-        "type": 7,
-        "version": "1.0.0",
-        "version_code": 1
-      }
-    ]
+    "components": []
   }
 }
