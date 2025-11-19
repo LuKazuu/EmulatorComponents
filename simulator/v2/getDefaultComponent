@@ -17,20 +17,6 @@
       "file_size": "",
       "file_name": "",
       "display_name": ""
-    },
-    "steamClient": {
-      "id": 102,
-      "type": 7,
-      "version": "1.0.0",
-      "version_code": 1,
-      "name": "STEAM_9866232",
-      "logo": "",
-      "blurb": "",
-      "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/steam_9866232.tar.zst",
-      "file_md5": "3d9d01362622a782a27ae691427b786c",
-      "file_size": "41192642",
-      "file_name": "steam_9866232.tar.zst",
-      "display_name": "STEAM_9866232"
     }
   },
   "time": "1759470602"
