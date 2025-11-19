@@ -20,20 +20,6 @@
         "type": 5,
         "version": "1.0.0",
         "version_code": 1
-      },
-      {
-        "display_name": "",
-        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/steamagent.tar.zst",
-        "file_md5": "08948711f330b5cd705c836b458127d5",
-        "file_name": "steamagent.tar.zst",
-        "file_size": "1907395",
-        "id": 103,
-        "is_ui": 2,
-        "logo": "",
-        "name": "STEAMAGENT",
-        "type": 5,
-        "version": "1.0.0",
-        "version_code": 1
       }
     ]
   }
