@@ -9,16 +9,16 @@
     "components": [
       {
         "display_name": "",
-        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/vkd3d-3.0-7377.tzst",
-        "file_md5": "b5b550599682db40fc8841ac8b9df01a",
-        "file_name": "vkd3d-3.0-7377.tzst",
-        "file_size": "5011491",
+        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/vkd3d-3.0a-7396.tzst",
+        "file_md5": "d4ebbb4ccab02bc11a8fe1a9561efe94",
+        "file_name": "vkd3d-3.0a-7396.tzst",
+        "file_size": "5011391",
         "id": 81,
         "is_ui": 1,
         "logo": "",
         "name": "VKD3D-PROTON",
         "type": 4,
-        "version": "3.0-7377",
+        "version": "3.0a-7396",
         "version_code": 1
       }
     ]
