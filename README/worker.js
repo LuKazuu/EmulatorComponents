@@ -1,6 +1,6 @@
 // Tanpa Server CN
-// Aera
-
+// Tanpa Cache
+// Deploy CF Worker
 const GITHUB_BASE = 'https://raw.githubusercontent.com/LuKazuu/EmulatorComponents/main';
 
 const TYPE_TO_MANIFEST = {
@@ -8,9 +8,6 @@ const TYPE_TO_MANIFEST = {
 	2: '/components/drivers_manifest',
 	3: '/components/dxvk_manifest',
 	4: '/components/vkd3d_manifest',
-	5: '/components/games_manifest',
-	6: '/components/libraries_manifest',
-	7: '/components/steam_manifest',
 };
 
 export default {
@@ -61,13 +58,6 @@ export default {
 				const data = await response.json();
 				return new Response(JSON.stringify(data), { headers: { 'Content-Type': 'application/json', ...allHeaders } });
 			}
-
-			if (url.pathname === '/game/getSteamHost' && request.method === 'GET') {
-				const response = await fetchFromGitHub('/game/getSteamHost');
-				if (!response.ok) return createStubResponse('Gagal mengambil host Steam', 500);
-				const hostsText = await response.text();
-				return new Response(hostsText, { headers: { 'Content-Type': 'text/plain', ...allHeaders } });
-			}
 			
 			if (url.pathname === '/simulator/v2/getComponentList' && request.method === 'POST') {
 				const body = await request.json();
@@ -111,7 +101,23 @@ export default {
 				});
 			}
 
-			console.log(`[PROXY] Permintaan fallback untuk: ${url.pathname}`);
+			if (url.pathname.startsWith('/simulator/v2/')) {
+				const realPath = url.pathname.replace('/simulator/v2/', '/simulator/');
+				const response = await fetchFromGitHub(realPath);
+				
+				if (response.ok) {
+					return new Response(response.body, {
+						status: response.status,
+						headers: {
+							...Object.fromEntries(response.headers),
+							...allHeaders,
+						},
+					});
+				} else {
+					return createStubResponse('Gagal mengambil komponen dasar', 500);
+				}
+			}
+
 			const githubResponse = await fetchFromGitHub(url.pathname);
 
 			if (githubResponse.ok) {
@@ -123,12 +129,10 @@ export default {
 					},
 				});
 			} else {
-				console.warn(`[STUB_404] File tidak ditemukan di GitHub, kirim stub 200: ${url.pathname}`);
 				return createStubResponse(null);
 			}
 
 		} catch (error) {
-			console.error('Worker Error:', error.message, error.stack);
 			return new Response(JSON.stringify({ code: 500, msg: `Internal Error: ${error.message}` }), {
 				status: 500,
 				headers: { 'Content-Type': 'application/json', ...allHeaders },
