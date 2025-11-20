@@ -32,11 +32,12 @@ export default {
 			return new Response(null, { headers: allHeaders });
 		}
 
-		const createStubResponse = (data = null, code = 200, msg = 'AeraCanoeV2') => {
+		const createStubResponse = (data = null, code = 200, msg = 'AeraCanoeV2', realHttpStatus = 200) => {
 			const time = Math.floor(Date.now() / 1000).toString();
 			const responseBody = { code, msg, time, data };
 
 			return new Response(JSON.stringify(responseBody), {
+				status: realHttpStatus,
 				headers: { 'Content-Type': 'application/json', ...allHeaders },
 			});
 		};
@@ -150,10 +151,8 @@ export default {
 
 		} catch (error) {
 			console.error(`[INTERNAL_ERROR] ${error.message}`);
-			return new Response(JSON.stringify({ code: 500, msg: `Internal Error: ${error.message}`, data: null }), {
-				status: 500,
-				headers: { 'Content-Type': 'application/json', ...allHeaders },
-			});
+			return createStubResponse(null, 500, `Internal Error: ${error.message}`, 500);
 		}
 	},
 };
+// Last Update: 20 November 2025
