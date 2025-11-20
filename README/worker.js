@@ -52,13 +52,23 @@ export default {
 		};
 
 		try {
+			// 0. Health Check
+			if (url.pathname === '/') {
+				return createStubResponse(); 
+			}
+			
+			// 1. Handle executeScript
 			if (url.pathname === '/simulator/executeScript' && request.method === 'POST') {
 				const response = await fetchFromGitHub('/simulator/executeScript');
-				if (!response.ok) return createStubResponse('Gagal mengambil data executeScript', 500);
+				if (!response.ok) {
+					console.error('[EXEC_FAIL] Gagal mengambil script utama dari GitHub');
+					return createStubResponse(null, 500, 'Fetch Error');
+				}
 				const data = await response.json();
 				return new Response(JSON.stringify(data), { headers: { 'Content-Type': 'application/json', ...allHeaders } });
 			}
 			
+			// 2. Handle API getComponentList
 			if (url.pathname === '/simulator/v2/getComponentList' && request.method === 'POST') {
 				const body = await request.json();
 				const type = body.type;
@@ -66,14 +76,16 @@ export default {
 				const pageSize = body.page_size || 10;
 
 				if (!type || !TYPE_TO_MANIFEST[type]) {
-					return createStubResponse('Parameter tipe tidak valid', 400);
+					console.warn(`[API_WARN] Tipe komponen tidak valid: ${type}`);
+					return createStubResponse(null, 400, 'Invalid Type');
 				}
 
 				const manifestUrl = TYPE_TO_MANIFEST[type];
 				const response = await fetchFromGitHub(manifestUrl);
 
 				if (!response.ok) {
-					return createStubResponse('Gagal mengambil manifest komponen', 500);
+					console.error(`[API_FAIL] Gagal mengambil manifest: ${manifestUrl}`);
+					return createStubResponse(null, 500, 'Fetch Error');
 				}
 
 				const manifestData = await response.json();
@@ -101,6 +113,7 @@ export default {
 				});
 			}
 
+			// 3. Handle V2 Rewrite
 			if (url.pathname.startsWith('/simulator/v2/')) {
 				const realPath = url.pathname.replace('/simulator/v2/', '/simulator/');
 				const response = await fetchFromGitHub(realPath);
@@ -114,10 +127,12 @@ export default {
 						},
 					});
 				} else {
-					return createStubResponse('Gagal mengambil komponen dasar', 500);
+					console.warn(`[V2_MISSING] File tidak ditemukan: ${realPath}`);
+					return createStubResponse(null, 404, 'Not Found');
 				}
 			}
 
+			// 4. Handle Other Requests
 			const githubResponse = await fetchFromGitHub(url.pathname);
 
 			if (githubResponse.ok) {
@@ -129,11 +144,13 @@ export default {
 					},
 				});
 			} else {
-				return createStubResponse(null);
+				console.warn(`[OTHER_MISSING] File tidak ditemukan: ${url.pathname}`);
+				return createStubResponse(null, 404, 'Not Found');
 			}
 
 		} catch (error) {
-			return new Response(JSON.stringify({ code: 500, msg: `Internal Error: ${error.message}` }), {
+			console.error(`[INTERNAL_ERROR] ${error.message}`);
+			return new Response(JSON.stringify({ code: 500, msg: `Internal Error: ${error.message}`, data: null }), {
 				status: 500,
 				headers: { 'Content-Type': 'application/json', ...allHeaders },
 			});
