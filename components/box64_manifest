@@ -10,29 +10,29 @@
       {
         "display_name": "",
         "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/fexcore-latest.tzst",
-        "file_md5": "6190011085b304098d2a63dad6169e55",
+        "file_md5": "76a03224dd2fae806faec3aa6441fd7c",
         "file_name": "fexcore-latest.tzst",
-        "file_size": "1262190",
+        "file_size": "1263746",
         "id": 21,
         "is_ui": 1,
         "logo": "",
         "name": "FEXCORE-NIGHTLY",
         "type": 1,
-        "version": "2511-251118",
+        "version": "2511-251120",
         "version_code": 1
       },
       {
         "display_name": "",
         "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/combined-latest/box64-latest.tzst",
-        "file_md5": "074fbb6ac0fc0adc564da270d7865c8a",
+        "file_md5": "6010d2a06ae115eae51f0d3a11f7fc8c",
         "file_name": "box64-latest.tzst",
-        "file_size": "3256295",
+        "file_size": "3253086",
         "id": 22,
         "is_ui": 1,
         "logo": "",
         "name": "BOX64-NIGHTLY",
         "type": 1,
-        "version": "0.3.9-251118",
+        "version": "0.3.9-251120",
         "version_code": 1
       }
     ]
