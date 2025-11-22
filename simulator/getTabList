@@ -9,12 +9,12 @@
       "sub_type": 0
     },
     {
-      "name": "Proton & Wine",
+      "name": "Compatibility layer",
       "type": 2,
       "sub_type": 0
     },
     {
-      "name": "FEXCore & Box64",
+      "name": "Translator",
       "type": 3,
       "sub_type": 1
     },
