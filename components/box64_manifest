@@ -10,29 +10,29 @@
       {
         "display_name": "",
         "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/fexcore-latest.tzst",
-        "file_md5": "dde66ba116ae43cdccbb19c5ced6d90c",
+        "file_md5": "cc43bef53bbeeb4641efe741693eda8a",
         "file_name": "fexcore-latest.tzst",
-        "file_size": "1822309",
+        "file_size": "1822590",
         "id": 21,
         "is_ui": 1,
         "logo": "",
         "name": "FEXCORE-NIGHTLY",
         "type": 1,
-        "version": "2511-251127",
+        "version": "2511-251129",
         "version_code": 1
       },
       {
         "display_name": "",
         "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/box64-latest.tzst",
-        "file_md5": "208d5f814b5069eb5e1be09d152c073b",
+        "file_md5": "21b5eef6d04ceeb8267b0bde0a084471",
         "file_name": "box64-latest.tzst",
-        "file_size": "4029843",
+        "file_size": "3913004",
         "id": 22,
         "is_ui": 1,
         "logo": "",
         "name": "BOX64-NIGHTLY",
         "type": 1,
-        "version": "0.3.9-251127",
+        "version": "0.3.9-251201",
         "version_code": 1
       }
     ]
