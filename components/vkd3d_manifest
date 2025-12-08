@@ -10,15 +10,15 @@
       {
         "display_name": "",
         "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/vkd3d-latest.tzst",
-        "file_md5": "778bbf8a3b12e9d3f07bff87c8c1ac9c",
+        "file_md5": "91d1c4f9295515ba09faed579822fffa",
         "file_name": "vkd3d-latest.tzst",
-        "file_size": "5011513",
+        "file_size": "4631786",
         "id": 81,
         "is_ui": 1,
         "logo": "",
         "name": "VKD3D-LATEST",
         "type": 4,
-        "version": "3.0a-7398",
+        "version": "3.0a-7506",
         "version_code": 1
       }
     ]
