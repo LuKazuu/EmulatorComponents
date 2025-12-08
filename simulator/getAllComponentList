@@ -62,15 +62,15 @@
       {
         "display_name": "",
         "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/dxvk-latest.tzst",
-        "file_md5": "52b587b71583ce3dd08494b93d1c08cb",
+        "file_md5": "c357b360d008d11aefcd844e70b26111",
         "file_name": "dxvk-latest.tzst",
-        "file_size": "15123415",
+        "file_size": "14088378",
         "id": 61,
         "is_ui": 1,
         "logo": "",
         "name": "DXVK-LATEST",
         "type": 3,
-        "version": "2.7.1-7665",
+        "version": "2.7.1-7753",
         "version_code": 1
       },
       {
@@ -118,15 +118,15 @@
       {
         "display_name": "",
         "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/vkd3d-latest.tzst",
-        "file_md5": "778bbf8a3b12e9d3f07bff87c8c1ac9c",
+        "file_md5": "91d1c4f9295515ba09faed579822fffa",
         "file_name": "vkd3d-latest.tzst",
-        "file_size": "5011513",
+        "file_size": "4631786",
         "id": 81,
         "is_ui": 1,
         "logo": "",
         "name": "VKD3D-LATEST",
         "type": 4,
-        "version": "3.0a-7398",
+        "version": "3.0a-7506",
         "version_code": 1
       },
       {
