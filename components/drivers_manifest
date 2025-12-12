@@ -30,9 +30,9 @@
         "id": 42,
         "is_ui": 1,
         "logo": "",
-        "name": "TURNIP-GMEM_1",
+        "name": "TURNIP-GMEM",
         "type": 2,
-        "version": "26.0.0-R6",
+        "version": "26.0.0-R6_1",
         "version_code": 1
       }
     ]
