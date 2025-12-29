@@ -10,15 +10,15 @@
       {
         "display_name": "",
         "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/fexcore-latest.tzst",
-        "file_md5": "846f5a402dc5743f7fb2373097d3e095",
+        "file_md5": "c829b7065cfbe365714db9e2cc329e95",
         "file_name": "fexcore-latest.tzst",
-        "file_size": "1844279",
+        "file_size": "1844664",
         "id": 21,
         "is_ui": 1,
         "logo": "",
         "name": "FEXCORE-NIGHTLY",
         "type": 1,
-        "version": "2512-251225",
+        "version": "2512-251228",
         "version_code": 1
       },
       {
