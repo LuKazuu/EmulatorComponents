@@ -14,7 +14,12 @@
       "logo": "",
       "display_name": "FIRMWARE"
     },
-    "container": {},
+    "container": {
+     "framework": "arm64X",
+     "framework_type": "proton",
+     "display_name": "PROTON-10.0-ARM64",
+     "is_steam": 1
+    },
     "component": [
       {
         "id": 101,
