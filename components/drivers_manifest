@@ -5,7 +5,7 @@
     "type": 2,
     "type_name": "drivers",
     "display_name": "GPU Drivers",
-    "total": 2,
+    "total": 1,
     "components": [
        {
         "display_name": "",
