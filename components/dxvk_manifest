@@ -48,20 +48,6 @@
         "type": 3,
         "version": "2.4.1",
         "version_code": 1
-      },
-      {
-        "display_name": "",
-        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/dxvk-1.11.1.tzst",
-        "file_md5": "7f7fd07910561bd630cb2c84186e9e0b",
-        "file_name": "dxvk-1.11.1.tzst",
-        "file_size": "7538204",
-        "id": 64,
-        "is_ui": 1,
-        "logo": "",
-        "name": "DXVK-MALI",
-        "type": 3,
-        "version": "1.11.1",
-        "version_code": 1
       }
     ]
   }
