@@ -39,26 +39,6 @@
     },
     {
       "id": 4,
-      "version": "1.0.1",
-      "version_code": 1,
-      "name": "PROTON-10.0-X64",
-      "logo": "",
-      "file_md5": "ac15e5a378b17aefd93adf360e875494",
-      "file_size": "164876854",
-      "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/proton-10.0-x64.tar.zst",
-      "file_name": "proton-10.0-x64.tar.zst",
-      "framework": "X64",
-      "framework_type": "proton",
-      "display_name": "PROTON-10.0-X64",
-      "is_steam": 1,
-      "sub_data": {
-        "sub_file_name": "proton-10.0-x64-subdata.tzst",
-        "sub_download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/proton-10.0-x64-subdata.tzst",
-        "sub_file_md5": "751b2ec403b86ddd7357206f7a85b301"
-      }
-    },
-    {
-      "id": 5,
       "version": "1.0.3",
       "version_code": 1,
       "name": "PROTON-9.0-ARM64",
@@ -78,7 +58,7 @@
       }
     },
     {
-      "id": 6,
+      "id": 5,
       "version": "1.0.3",
       "version_code": 1,
       "name": "PROTON-9.0-X64",
