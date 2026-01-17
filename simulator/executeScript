@@ -15,7 +15,7 @@
       "display_name": "FIRMWARE"
     },
     "container": {
-      "id": 5,
+      "id": 4,
       "version": "1.0.3",
       "version_code": 1,
       "name": "PROTON-9.0-ARM64",
