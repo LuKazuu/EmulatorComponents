@@ -34,15 +34,15 @@
       {
         "display_name": "",
         "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/turnip-latest.tzst",
-        "file_md5": "3ce806e00d01d24cfab649803723eeac",
+        "file_md5": "b3e36eba1f119cee6e35ced83c1dd1f0",
         "file_name": "turnip-latest.tzst",
-        "file_size": "2995729",
+        "file_size": "2914316",
         "id": 41,
         "is_ui": 1,
         "logo": "",
         "name": "TURNIP-AUTO",
         "type": 2,
-        "version": "26.0.0-R8",
+        "version": "26.1.0-R2",
         "version_code": 1
       },
       {
