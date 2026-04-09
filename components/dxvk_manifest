@@ -37,7 +37,7 @@
       },
       {
         "display_name": "",
-        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/dxvk-2.4.1.tzst",
+        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/dxvk-2.4.1-gplasync.tzst",
         "file_md5": "4f77198da4fb82fe5533e3870eb38282",
         "file_name": "dxvk-2.4.1-gplasync.tzst",
         "file_size": "7068898",
