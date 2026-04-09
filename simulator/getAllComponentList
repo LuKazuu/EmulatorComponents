@@ -90,15 +90,15 @@
       {
         "display_name": "",
         "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/vkd3d-latest.tzst",
-        "file_md5": "427038c835cd5e4c91cd6432a595a719",
+        "file_md5": "5b799484caecc836fdb83662f6efeb07",
         "file_name": "vkd3d-latest.tzst",
-        "file_size": "4607995",
+        "file_size": "4732567",
         "id": 81,
         "is_ui": 1,
         "logo": "",
         "name": "VKD3D-NIGHTLY",
         "type": 4,
-        "version": "3.0b",
+        "version": "3.0b-8011",
         "version_code": 1
       },
       {
