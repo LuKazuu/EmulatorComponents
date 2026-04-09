@@ -75,16 +75,16 @@
       },
       {
         "display_name": "",
-        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/dxvk-2.4.1-gplasync.tzst",
-        "file_md5": "4f77198da4fb82fe5533e3870eb38282",
-        "file_name": "dxvk-2.4.1-gplasync.tzst",
-        "file_size": "7068898",
+        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/dxvk-2.4.1.tzst",
+        "file_md5": "525b250e538aabbaaf51d148827050d7",
+        "file_name": "dxvk-2.4.1.tzst",
+        "file_size": "7065271",
         "id": 63,
         "is_ui": 1,
         "logo": "",
         "name": "DXVK-TURNIP",
         "type": 3,
-        "version": "2.4.1-gplasync",
+        "version": "2.4.1",
         "version_code": 1
       },
       {
