@@ -76,6 +76,21 @@
         "sub_download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/proton-9.0-x64-subdata.tzst",
         "sub_file_md5": "6f41b9c15b5bc97a0365b65da2b7545f"
       }
+    },
+    {
+      "id": 6,
+      "version": "1.0.0",
+      "version_code": 1,
+      "name": "PROTON-11.0-ARM64",
+      "logo": "",
+      "file_md5": "ffcaf1de4ad715449f36fa3e80f8f44c",
+      "file_size": "240592439",
+      "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/proton-11.0-arm64.tar.zst",
+      "file_name": "proton-11.0-arm64.tar.zst",
+      "framework": "arm64X",
+      "framework_type": "proton",
+      "display_name": "PROTON-11.0-ARM64",
+      "is_steam": 1
     }
   ],
   "time": "1759448661"
