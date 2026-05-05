@@ -24,15 +24,15 @@
       {
         "display_name": "",
         "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/box64-latest.tzst",
-        "file_md5": "d8f8bfe960ee2f7a411d36f91cd388a1",
+        "file_md5": "121339e7da1e2bd9a75e6f3653cf2a33",
         "file_name": "box64-latest.tzst",
-        "file_size": "4322956",
+        "file_size": "4325949",
         "id": 22,
         "is_ui": 1,
         "logo": "",
         "name": "BOX64-NIGHTLY",
         "type": 1,
-        "version": "0.4.1-260408",
+        "version": "0.4.2-260421",
         "version_code": 1
       }
     ]
