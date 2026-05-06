@@ -34,15 +34,15 @@
       {
         "display_name": "",
         "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/turnip-latest.tzst",
-        "file_md5": "8f56a39882efd57983462988458f216d",
+        "file_md5": "1b41bf269513e5e499631ece23e0e9ad",
         "file_name": "turnip-latest.tzst",
-        "file_size": "2278876",
+        "file_size": "2277532",
         "id": 41,
         "is_ui": 1,
         "logo": "",
         "name": "TURNIP-AUTO",
         "type": 2,
-        "version": "MTR-26.2.0-R1",
+        "version": "V26",
         "version_code": 1
       },
       {
