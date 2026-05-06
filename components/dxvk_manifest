@@ -10,15 +10,15 @@
       {
         "display_name": "",
         "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/dxvk-latest.tzst",
-        "file_md5": "69d3ba28005db0980e5e5532b693021a",
+        "file_md5": "977ea2d66d3a453ec271eb39581be2b6",
         "file_name": "dxvk-latest.tzst",
-        "file_size": "14596867",
+        "file_size": "15431570",
         "id": 61,
         "is_ui": 1,
         "logo": "",
         "name": "DXVK-NIGHTLY",
         "type": 3,
-        "version": "2.7.1-8154",
+        "version": "2.7.1-8241",
         "version_code": 1
       },
       {
