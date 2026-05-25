@@ -42,21 +42,7 @@
         "logo": "",
         "name": "TURNIP-AUTO",
         "type": 2,
-        "version": "V26",
-        "version_code": 1
-      },
-      {
-        "display_name": "",
-        "download_url": "https://github.com/LuKazuu/EmulatorComponents/releases/download/gamehub-latest/turnip-latest-sdk29.tzst",
-        "file_md5": "903d442f2a74b73198aa7b18a195ab98",
-        "file_name": "turnip-latest-sdk29.tzst",
-        "file_size": "3307888",
-        "id": 42,
-        "is_ui": 1,
-        "logo": "",
-        "name": "TURNIP-SDK29",
-        "type": 2,
-        "version": "26.2.0",
+        "version": "26",
         "version_code": 1
       },
       {
